@@ -1,0 +1,11 @@
+---
+compose:
+  pulp_repos: true
+image_build_method: imagebuilder
+remote_source:
+    repo: https://github.com/maxwo/snmp_notifier.git
+    ref: 73773b728ff6147d9590e6db86e44a668bbd93d5
+    pkg_managers:
+      - gomod
+    flags:
+      - gomod-vendor
