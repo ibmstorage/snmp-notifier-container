@@ -1,6 +1,6 @@
 # Build stage 1
 
-FROM openshift/golang-builder:rhel_9_golang_1.16 AS builder
+FROM openshift/golang-builder:rhel_8_golang_1.16 AS builder
 
 COPY $REMOTE_SOURCE $REMOTE_SOURCE_DIR
 
@@ -12,7 +12,7 @@ RUN go build -o $REMOTE_SOURCE_DIR/app/bin/snmp_notifier -ldflags "-s -X github.
 
 # Build stage 2
 
-FROM registry.redhat.io/ubi8/ubi-minimal
+FROM registry.redhat.io/ubi9/ubi-minimal
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y && \
