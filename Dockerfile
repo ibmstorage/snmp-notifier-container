@@ -1,6 +1,6 @@
 # Build stage 1
 
-FROM openshift/golang-builder:rhel_8_golang_1.16 AS builder
+FROM openshift/golang-builder:rhel_8_golang_1.19 AS builder
 
 COPY $REMOTE_SOURCE $REMOTE_SOURCE_DIR
 
