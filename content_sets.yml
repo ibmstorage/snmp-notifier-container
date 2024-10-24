@@ -23,3 +23,7 @@ s390x:
   - rhel-9-for-s390x-baseos-rpms
   - rhel-9-for-s390x-appstream-rpms
   - codeready-builder-for-rhel-9-s390x-rpms
+aarch64:
+  - rhel-9-for-aarch64-baseos-rpms
+  - rhel-9-for-aarch64-appstream-rpms
+  - codeready-builder-for-rhel-9-aarch64-rpms
