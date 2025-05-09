@@ -8,7 +8,7 @@ WORKDIR $REMOTE_SOURCE_DIR/app
 
 RUN dnf install -y glibc-static
 
-RUN go build -o $REMOTE_SOURCE_DIR/app/bin/snmp_notifier -ldflags "-s -X github.com/prometheus/common/version.Version=1.2.1 -X github.com/prometheus/common/version.Revision=14ba67401c61cfc2f19ebd9ace8acdcf47b4cd49 -X github.com/prometheus/common/version.Branch=master -X github.com/prometheus/common/version.BuildUser=osbs -X github.com/prometheus/common/version.BuildDate=20211104-18:55:37 -extldflags '-static'" -a -tags netgo ${REMOTE_SOURCE_DIR}/app/snmp_notifier.go
+RUN source $CACHITO_ENV_FILE && go build -mod=readonly -o $REMOTE_SOURCE_DIR/app/bin/snmp_notifier -ldflags "-s -X github.com/prometheus/common/version.Version=1.2.1 -X github.com/prometheus/common/version.Revision=14ba67401c61cfc2f19ebd9ace8acdcf47b4cd49 -X github.com/prometheus/common/version.Branch=master -X github.com/prometheus/common/version.BuildUser=osbs -X github.com/prometheus/common/version.BuildDate=20211104-18:55:37 -extldflags '-static'" -a -tags netgo ${REMOTE_SOURCE_DIR}/app/snmp_notifier.go
 
 # Build stage 2
 

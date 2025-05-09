@@ -7,5 +7,3 @@ remote_source:
     ref: 73773b728ff6147d9590e6db86e44a668bbd93d5
     pkg_managers:
       - gomod
-    flags:
-      - gomod-vendor
