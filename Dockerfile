@@ -3,16 +3,25 @@
 #FROM openshift/golang-builder:rhel_9_golang_1.23 AS builder
 FROM quay.io/projectquay/golang:1.23 AS builder
 
-COPY $REMOTE_SOURCE $REMOTE_SOURCE_DIR
+COPY snmp_notifier snmp_notifier
 
-WORKDIR $REMOTE_SOURCE_DIR/app
+WORKDIR snmp_notifier
 
 RUN dnf install -y glibc-static
 
-RUN source $CACHITO_ENV_FILE && go build -mod=readonly -o $REMOTE_SOURCE_DIR/app/bin/snmp_notifier -ldflags "-s -X github.com/prometheus/common/version.Version=1.2.1 -X github.com/prometheus/common/version.Revision=14ba67401c61cfc2f19ebd9ace8acdcf47b4cd49 -X github.com/prometheus/common/version.Branch=master -X github.com/prometheus/common/version.BuildUser=osbs -X github.com/prometheus/common/version.BuildDate=20211104-18:55:37 -extldflags '-static'" -a -tags netgo ${REMOTE_SOURCE_DIR}/app/snmp_notifier.go
+# Build the binary
+RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -mod=readonly \
+    -o snmp_notifier \
+    -ldflags "-s \
+      -X github.com/prometheus/common/version.Version=1.2.1 \
+      -X github.com/prometheus/common/version.Revision=14ba67401c61cfc2f19ebd9ace8acdcf47b4cd49 \
+      -X github.com/prometheus/common/version.Branch=master \
+      -X github.com/prometheus/common/version.BuildUser=osbs \
+      -X github.com/prometheus/common/version.BuildDate=20211104-18:55:37 \
+      -extldflags '-static'" \
+    -a -tags netgo
 
 # Build stage 2
-
 FROM registry.redhat.io/ubi9/ubi-minimal
 
 # Update the image to get the latest CVE updates
@@ -21,8 +30,8 @@ RUN microdnf update -y && \
 
 ENV OPBIN=/usr/local/bin/snmp_notifier
 
-COPY --from=builder $REMOTE_SOURCE_DIR/app/bin/snmp_notifier "$OPBIN"
-COPY --from=builder $REMOTE_SOURCE_DIR/app/description-template.tpl /etc/snmp_notifier/description-template.tpl
+COPY --from=builder /go/snmp_notifier/snmp_notifier "$OPBIN"
+COPY --from=builder /go/snmp_notifier/description-template.tpl /etc/snmp_notifier/description-template.tpl
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="snmp-notifier-container"
