@@ -1,7 +1,7 @@
 # Build stage 1
 
 #FROM openshift/golang-builder:rhel_9_golang_1.23 AS builder
-FROM quay.io/projectquay/golang:1.23 AS builder
+FROM quay.io/projectquay/golang:1.24 AS builder
 
 COPY snmp_notifier snmp_notifier
 
