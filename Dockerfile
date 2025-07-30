@@ -1,7 +1,7 @@
 # Build stage 1
 
 #FROM openshift/golang-builder:rhel_9_golang_1.23 AS builder
-FROM quay.io/projectquay/golang:1.23 AS builder
+FROM --platform=$BUILDPLATFORM quay.io/projectquay/golang:1.23 AS builder
 
 COPY snmp_notifier snmp_notifier
 
@@ -22,7 +22,7 @@ RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -mod=readonly \
     -a -tags netgo
 
 # Build stage 2
-FROM registry.redhat.io/ubi9/ubi-minimal
+FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi9-minimal:latest
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y && \
@@ -47,4 +47,3 @@ RUN chmod +x "$OPBIN"
 EXPOSE 9464
 ENTRYPOINT ["/usr/local/bin/snmp_notifier"]
 CMD ["--snmp.trap-description-template=/etc/snmp_notifier/description-template.tpl"]
-

@@ -24,12 +24,14 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-dev/snmp-notifier:on-pr-{{revision}}
+    value: quay.io/rhceph-ci/snmp-notifier:on-pr-v7.1-{{revision}}
   - name: image-expires-after
     value: 5d
   - name: build-platforms
     value:
     - linux/x86_64
+    - linux/s390x
+    - linux/ppc64le
   - name: dockerfile
     value: Dockerfile
   - name: path-context
@@ -554,6 +556,11 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_URL)
       - name: IMAGE_DIGEST
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      - name: ADDITIONAL_TAGS
+        value:
+          - "pull-request-{{pull_request_number}}"
+          - "from-branch-{{source_branch}}"
+          - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
       - build-image-index
       taskRef:
