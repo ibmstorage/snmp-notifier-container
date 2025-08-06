@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-dev/snmp-notifier:v6.1-{{revision}}
+    value: quay.io/rhceph-ci/snmp-notifier:v6.1-{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
