@@ -6,7 +6,7 @@ metadata:
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
     build.appstudio.redhat.com/pull_request_number: '{{pull_request_number}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
-    pipelinesascode.tekton.dev/cancel-in-progress: "true"
+    pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch == "release-9.0"
   creationTimestamp:
@@ -24,8 +24,6 @@ spec:
     value: '{{revision}}'
   - name: output-image
     value: quay.io/rhceph-ci/snmp-notifier:on-pr-v9.0-{{revision}}
-  - name: image-expires-after
-    value: 5d
   - name: build-platforms
     value:
     - linux/x86_64
@@ -83,11 +81,11 @@ spec:
       description: Skip checks against built image
       name: skip-checks
       type: string
-    - default: "false"
+    - default: "true"
       description: Execute the build with network isolation
       name: hermetic
       type: string
-    - default: ""
+    - default: '[{"type": "rpm", "path": "."}, {"type": "gomod", "path": "."}]'
       description: Build dependencies to be prefetched by Cachi2
       name: prefetch-input
       type: string
@@ -95,7 +93,7 @@ spec:
       description: Image tag expiration time, time values could be something like 1h, 2d, 3w for hours, days, and weeks, respectively.
       name: image-expires-after
       type: string
-    - default: "false"
+    - default: "true"
       description: Build a source image.
       name: build-source-image
       type: string
@@ -190,6 +188,8 @@ spec:
         value: $(params.output-image).prefetch
       - name: ociArtifactExpiresAfter
         value: $(params.image-expires-after)
+      - name: ACTIVATION_KEY
+        value: rkamath-activation-key
       runAfter:
       - clone-repository
       taskRef:
@@ -213,6 +213,8 @@ spec:
           - $(params.build-platforms)
       name: build-images
       params:
+      - name: ACTIVATION_KEY
+        value: rkamath-activation-key
       - name: IMAGE
         value: $(params.output-image)
       - name: DOCKERFILE
