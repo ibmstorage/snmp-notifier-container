@@ -1,0 +1,192 @@
+#
+# Certificate-Based Repositories
+# Managed by (rhsm) subscription-manager
+#
+# *** This file is auto-generated.  Changes made here will be over-written. ***
+# *** Use "subscription-manager repo-override --help" if you wish to make changes. ***
+#
+# If this file is empty and this system is subscribed consider
+# a "yum repolist" to refresh available repos
+#
+
+[codeready-builder-for-rhel-9-$basearch-source-rpms]
+name = Red Hat CodeReady Linux Builder for RHEL 9 ARM 64 (Source RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/codeready-builder/source/SRPMS
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[codeready-builder-for-rhel-9-$basearch-debug-rpms]
+name = Red Hat CodeReady Linux Builder for RHEL 9 ARM 64 (Debug RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/codeready-builder/debug
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[rhel-9-for-$basearch-appstream-debug-rpms]
+name = Red Hat Enterprise Linux 9 for ARM 64 - AppStream (Debug RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/appstream/debug
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[rhel-9-for-$basearch-baseos-debug-rpms]
+name = Red Hat Enterprise Linux 9 for ARM 64 - BaseOS (Debug RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/baseos/debug
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[rhel-9-for-$basearch-baseos-rpms]
+name = Red Hat Enterprise Linux 9 for ARM 64 - BaseOS (RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/baseos/os
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 1
+
+[rhel-9-for-$basearch-appstream-source-rpms]
+name = Red Hat Enterprise Linux 9 for ARM 64 - AppStream (Source RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/appstream/source/SRPMS
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[openstack-beta-deployment-tools-for-rhel-9-x86_64-source-rpms]
+name = Red Hat OpenStack Platform Beta Director Deployment Tools for RHEL 9 x86_64 (Source RPMs)
+baseurl = https://cdn.redhat.com/content/beta/layered/rhel9/x86_64/openstack-deployment-tools/source/SRPMS
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release,file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-beta
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[rhel-atomic-7-cdk-3.5-debug-rpms]
+name = Red Hat Container Development Kit 3.5 /(Debug RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.5/debug
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[rhocp-ironic-4.20-for-rhel-9-$basearch-source-rpms]
+name = Ironic content for Red Hat OpenShift Container Platform 4.20 for RHEL 9 ARM 64 (Source RPMs)
+baseurl = https://cdn.redhat.com/content/dist/layered/rhel9/$basearch/rhocp-ironic/4.20/source/SRPMS
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[rhel-9-for-$basearch-rt-debug-rpms]
+name = Red Hat Enterprise Linux 9 for ARM 64 - Real Time (Debug RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/rt/debug
+enabled = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[rhel-9-for-$basearch-appstream-rpms]
+name = Red Hat Enterprise Linux 9 for ARM 64 - AppStream (RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/appstream/os
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 1
+
+[rhel-9-for-$basearch-baseos-source-rpms]
+name = Red Hat Enterprise Linux 9 for ARM 64 - BaseOS (Source RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/baseos/source/SRPMS
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
+
+[codeready-builder-for-rhel-9-$basearch-rpms]
+name = Red Hat CodeReady Linux Builder for RHEL 9 ARM 64 (RPMs)
+baseurl = https://cdn.redhat.com/content/dist/rhel9/$releasever/$basearch/codeready-builder/os
+enabled = 1
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify = 1
+sslcacert = /etc/rhsm/ca/redhat-uep.pem
+sslclientkey = /etc/pki/entitlement/6410848555687578927-key.pem
+sslclientcert = /etc/pki/entitlement/6410848555687578927.pem
+sslverifystatus = 1
+metadata_expire = 86400
+enabled_metadata = 0
