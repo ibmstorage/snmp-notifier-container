@@ -1,13 +1,17 @@
 # Build stage 1
+# This Dockerfile is tailored for Konflux and it runs hermetically.
 
-#FROM openshift/golang-builder:rhel_9_golang_1.23 AS builder
-FROM --platform=$BUILDPLATFORM quay.io/projectquay/golang:1.23 AS builder
+FROM brew.registry.redhat.io/rh-osbs/openshift-golang-builder:rhel_9_golang_1.24 AS builder
+#FROM --platform=$BUILDPLATFORM quay.io/projectquay/golang:1.23 AS builder
 
 COPY snmp_notifier snmp_notifier
 
 WORKDIR snmp_notifier
 
-RUN dnf install -y glibc-static
+# The base image has glibc-langpack-en which causes issues with glibc-static installation.
+# So removing it will resolve the issue in the hermetic build
+RUN dnf remove -y glibc-langpack-en \
+  && dnf install -y glibc glibc-devel glibc-static
 
 # Build the binary
 RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -mod=readonly \
@@ -30,8 +34,8 @@ RUN microdnf update -y && \
 
 ENV OPBIN=/usr/local/bin/snmp_notifier
 
-COPY --from=builder /go/snmp_notifier/snmp_notifier "$OPBIN"
-COPY --from=builder /go/snmp_notifier/description-template.tpl /etc/snmp_notifier/description-template.tpl
+COPY --from=builder /snmp_notifier/snmp_notifier "$OPBIN"
+COPY --from=builder /snmp_notifier/description-template.tpl /etc/snmp_notifier/description-template.tpl
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="snmp-notifier-container"
@@ -41,6 +45,10 @@ LABEL description="SNMP Notifier container"
 LABEL summary="Provides snmp_notifier container."
 LABEL io.k8s.display-name="SNMP Notifier container"
 LABEL io.k8s.description="SNMP Notifier container receives alerts from the Prometheus' Alertmanager and routes them as SNMP traps."
+LABEL io.openshift.tags="1.2.1"
+LABEL cpe=cpe:/a:redhat:ceph_storage:9::el9
+LABEL org.opencontainers.image.created="${BUILD_DATE}"
+
 
 RUN chmod +x "$OPBIN"
 

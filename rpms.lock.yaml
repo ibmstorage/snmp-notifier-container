@@ -1,0 +1,994 @@
+---
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+- arch: aarch64
+  packages:
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-rpms
+    size: 563020
+    checksum: sha256:df23a305d84fb32a97cab65f941d968900f9c6c1e165d8d3509ec7a328d285ed
+    name: glibc-devel
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.51.1.el9_6.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-rpms
+    size: 3689457
+    checksum: sha256:bc13b2eb304764ac2a5a093bc9f8d0715056281c2e4d545ca482b790441e2f1f
+    name: kernel-headers
+    evr: 5.14.0-570.51.1.el9_6
+    sourcerpm: kernel-5.14.0-570.51.1.el9_6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/l/libxcrypt-devel-4.4.18-3.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-rpms
+    size: 33051
+    checksum: sha256:9d621f33df35b9c274b8d65457d6c67fc1522b6c62cf7b2341a4a99f39a93507
+    name: libxcrypt-devel
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/b/basesystem-11-13.el9.noarch.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 8229
+    checksum: sha256:f498b0813fa1a825d550e8e3a9e42255eabfa18e6fc96adfc6cc8fa7e16dd513
+    name: basesystem
+    evr: 11-13.el9
+    sourcerpm: basesystem-11-13.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/b/bash-5.1.8-9.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 1760045
+    checksum: sha256:7dc1febec9c2fb184ed4407f8a188ab267b7e46b3534866f702c6266008ababa
+    name: bash
+    evr: 5.1.8-9.el9
+    sourcerpm: bash-5.1.8-9.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/f/filesystem-3.16-5.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 5003914
+    checksum: sha256:484bc41109c49066cf350344150abe144e63263e0fafa0bf12c5a47f853e6a49
+    name: filesystem
+    evr: 3.16-5.el9
+    sourcerpm: filesystem-3.16-5.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-2.34-168.el9_6.23.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 1788790
+    checksum: sha256:45553330695edb681ef660a904f9f98ceead2307b42c640abb4a37c99529d166
+    name: glibc
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.23.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 300030
+    checksum: sha256:4966b8bd32e310015b46793a92497a9c837670da46f4a9db1dd06590bd3c6ef4
+    name: glibc-common
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-gconv-extra-2.34-168.el9_6.23.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 1815503
+    checksum: sha256:157c99885eac2cc7f172899f14fa897666f83248dc19bdbbbeae921be13abef5
+    name: glibc-gconv-extra
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.23.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 18673
+    checksum: sha256:08b46974c6d4dd1bfcbac0f4536405ec83f116c15c45f775a09f0eb5f2278e48
+    name: glibc-minimal-langpack
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 83463
+    checksum: sha256:3825a3137d6d3d8da38df5985581fd160a472eef8b929bb02f6e51a49ee6343e
+    name: libgcc
+    evr: 11.5.0-5.el9_5
+    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 38310
+    checksum: sha256:9bdfccf6b092e0683aa6984f7c6caa737b30c0b1495e16abb03b5d1a5f8e787a
+    name: libpkgconf
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/l/libxcrypt-4.4.18-3.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 127655
+    checksum: sha256:f05030123425a5033bcca3f260313cafc199bc7bca57e9fb13c335bd087c35a7
+    name: libxcrypt
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/n/ncurses-base-6.2-10.20210508.el9_6.2.noarch.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 97903
+    checksum: sha256:13491d7ce61e0c5ef82451936c68acf5d04dc437a624e0f74b89904bc0fbe330
+    name: ncurses-base
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/n/ncurses-libs-6.2-10.20210508.el9_6.2.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 324196
+    checksum: sha256:ac979a8ad0c6cf7822cd62495ec9d16154b7f8015480f08ad8f1edb488d128c1
+    name: ncurses-libs
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 45196
+    checksum: sha256:aa38a3951a690d721a815ea8f9b01995a85f35a8540d8075205821011d0385e6
+    name: pkgconf
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/p/pkgconf-m4-1.7.3-10.el9.noarch.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 16054
+    checksum: sha256:91bafd6e06099451f60288327b275cfcc651822f6145176a157c6b0fa5131e02
+    name: pkgconf-m4
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/p/pkgconf-pkg-config-1.7.3-10.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 12398
+    checksum: sha256:47f1f744f96a2f3d360bc129837738dcebb1ee5032effc4472a891eea1d6a907
+    name: pkgconf-pkg-config
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/r/redhat-release-9.6-0.1.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 45188
+    checksum: sha256:b8eebb7d2e6355184b1e08f59da9f87f8f899d3cd2408dcc042441f91b9a7d73
+    name: redhat-release
+    evr: 9.6-0.1.el9
+    sourcerpm: redhat-release-9.6-0.1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/r/redhat-release-eula-9.6-0.1.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 12450
+    checksum: sha256:cbea256a477270980b6048fc53d28df573acdd1e5d5b1cd3e4f111385648ad8f
+    name: redhat-release-eula
+    evr: 9.6-0.1.el9
+    sourcerpm: redhat-release-9.6-0.1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/s/setup-2.13.7-10.el9.noarch.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 153791
+    checksum: sha256:0891d395ce067121c28932534237ad1ce231f2bfa987411ad62e73a12d11eb6a
+    name: setup
+    evr: 2.13.7-10.el9
+    sourcerpm: setup-2.13.7-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/t/tzdata-2025b-1.el9.noarch.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 862160
+    checksum: sha256:0687e5a1115ba679137404c8d37a45141a31968ffd01677455530d24c126a0d2
+    name: tzdata
+    evr: 2025b-1.el9
+    sourcerpm: tzdata-2025b-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.23.aarch64.rpm
+    repoid: codeready-builder-for-rhel-9-aarch64-rpms
+    size: 1234855
+    checksum: sha256:7b1375c3e2aa89c4a200a43ac94a425b6d1a16e675a8401a50996e814172586b
+    name: glibc-static
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/l/libxcrypt-static-4.4.18-3.el9.aarch64.rpm
+    repoid: codeready-builder-for-rhel-9-aarch64-rpms
+    size: 111974
+    checksum: sha256:8bb8a0eb808c389cfec8a0b29ef66a608cc04711b5d4a0ad515f3a32522ae6e0
+    name: libxcrypt-static
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  source:
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/b/basesystem-11-13.el9.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 9884
+    checksum: sha256:5a4ed0779fc06f08115d6e06aa95486f1e1e251f8f9ddb6c7e14e811bb2e24ef
+    name: basesystem
+    evr: 11-13.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/b/bash-5.1.8-9.el9.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 10512850
+    checksum: sha256:5d7bbbf2538361be1a11846602862c3a56809b3ea43b69b86bcf407538e9e260
+    name: bash
+    evr: 5.1.8-9.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/f/filesystem-3.16-5.el9.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 20486
+    checksum: sha256:c795690df30c46e521372e2f649c995a2abc159b76c8ef6cd5da8a713ea17937
+    name: filesystem
+    evr: 3.16-5.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/gcc-11.5.0-5.el9_5.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 81877102
+    checksum: sha256:ed35dd39cd89aec444199a916667169638150fd12199dbb3c3d2638e43121565
+    name: gcc
+    evr: 11.5.0-5.el9_5
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.23.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 19844337
+    checksum: sha256:2495e3b229885e01ffd5dec87ea83d52022235c081e8fb19f6744a9e821b044f
+    name: glibc
+    evr: 2.34-168.el9_6.23
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-570.51.1.el9_6.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 149441640
+    checksum: sha256:9c06e96910f96e8a22e7d4063111815b5f38058f3a3280c266d9b61d8f909c58
+    name: kernel
+    evr: 5.14.0-570.51.1.el9_6
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/l/libxcrypt-4.4.18-3.el9.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 543970
+    checksum: sha256:d18f72eb41ecd0370e2e47f1dc5774be54e9ff3b4dd333578017666c7c488f40
+    name: libxcrypt
+    evr: 4.4.18-3.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/n/ncurses-6.2-10.20210508.el9_6.2.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 3587058
+    checksum: sha256:2c3309af9b6637047a8dec3f7e84c03da6fa4ab9570d78cad92c045bfd0fa1e3
+    name: ncurses
+    evr: 6.2-10.20210508.el9_6.2
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 310904
+    checksum: sha256:4d53718592b298ca7c49665b1f4e7bd32dcb42cad15c89345585da9f20d4fcae
+    name: pkgconf
+    evr: 1.7.3-10.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/r/redhat-release-9.6-0.1.el9.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 62469
+    checksum: sha256:6720f3d5c6675bbf8d79ce5424f891a34303e0c5c39be0e52ca51f70107f585b
+    name: redhat-release
+    evr: 9.6-0.1.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/s/setup-2.13.7-10.el9.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 195940
+    checksum: sha256:3acdbbd63bd77dd8b18210b9d597bd59ddf455ff728067638c54194ac3a8a32b
+    name: setup
+    evr: 2.13.7-10.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/t/tzdata-2025b-1.el9.src.rpm
+    repoid: rhel-9-for-aarch64-baseos-source-rpms
+    size: 904607
+    checksum: sha256:a2668d1f6b053545a5824a428755484895d72475a9d3833cbfbec9e08660aba2
+    name: tzdata
+    evr: 2025b-1.el9
+  module_metadata: []
+- arch: ppc64le
+  packages:
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-appstream-rpms
+    size: 574097
+    checksum: sha256:4b6108abc42324a64434f220defcadac8566369c8e632dfa2c56e3c8d878cd40
+    name: glibc-devel
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-570.51.1.el9_6.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-appstream-rpms
+    size: 3711181
+    checksum: sha256:13004fc00ea50c8d2c0eae519ee5d9e2609dce7154efcd2f3cab2068b5af73c6
+    name: kernel-headers
+    evr: 5.14.0-570.51.1.el9_6
+    sourcerpm: kernel-5.14.0-570.51.1.el9_6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/l/libxcrypt-devel-4.4.18-3.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-appstream-rpms
+    size: 33082
+    checksum: sha256:0897868b5e5ab66225dd55f585076975a84e3fd68b93a38be1d8a231d441bc16
+    name: libxcrypt-devel
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/b/basesystem-11-13.el9.noarch.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 8229
+    checksum: sha256:f498b0813fa1a825d550e8e3a9e42255eabfa18e6fc96adfc6cc8fa7e16dd513
+    name: basesystem
+    evr: 11-13.el9
+    sourcerpm: basesystem-11-13.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/b/bash-5.1.8-9.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 1818376
+    checksum: sha256:4ea13d08a909851376ff25b706c942eb3b66b0205e980aa4f9176e28ee1bae37
+    name: bash
+    evr: 5.1.8-9.el9
+    sourcerpm: bash-5.1.8-9.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/f/filesystem-3.16-5.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 5003944
+    checksum: sha256:e7d0bd8df20dfb2b499634c34ec966e1bd477a5d15f98373f56089ed0f387aca
+    name: filesystem
+    evr: 3.16-5.el9
+    sourcerpm: filesystem-3.16-5.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-2.34-168.el9_6.23.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 2850447
+    checksum: sha256:514cd36a6f2efc790fa23b1d3bf3fb353e0a99c160228a2b7cebd43f62547919
+    name: glibc
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.23.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 326633
+    checksum: sha256:9639715bde38dd16e9cee2b1e15f0266f738a077599b115b55775a539681582c
+    name: glibc-common
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-gconv-extra-2.34-168.el9_6.23.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 1819183
+    checksum: sha256:a5f77bd96e1f0f946f99ab846d5e32f12bc125264703f6834c632701b989e37a
+    name: glibc-gconv-extra
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.23.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 18689
+    checksum: sha256:4b1f6d7170f88d9014e4956688d5cb0e3a4c8e1e329d6f21fd2c6ce9aa2fd2c6
+    name: glibc-minimal-langpack
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 78032
+    checksum: sha256:8c96e34373c8068f489b07f0e1dec9731b9d600d6125839b2367211c491ec01a
+    name: libgcc
+    evr: 11.5.0-5.el9_5
+    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 42712
+    checksum: sha256:a96600fec79e7d94523816dc620203e812c4a08c82c07fb3bb62d7e9e6e1f661
+    name: libpkgconf
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/l/libxcrypt-4.4.18-3.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 136063
+    checksum: sha256:c0bc93eea8ae33a88c33d7f4ac290a7c4fb844e591fb69a55e50dca8df8fbbff
+    name: libxcrypt
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/n/ncurses-base-6.2-10.20210508.el9_6.2.noarch.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 97903
+    checksum: sha256:13491d7ce61e0c5ef82451936c68acf5d04dc437a624e0f74b89904bc0fbe330
+    name: ncurses-base
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/n/ncurses-libs-6.2-10.20210508.el9_6.2.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 379392
+    checksum: sha256:0b5be2584ef96966ea8d0b0cbb2efd0ff392710e8c93b55f999ea945dc68e232
+    name: ncurses-libs
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 46315
+    checksum: sha256:a70516a3a8f016a80613bc071586cd653db12a650c4c9f057743125cb7ad7433
+    name: pkgconf
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/p/pkgconf-m4-1.7.3-10.el9.noarch.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 16054
+    checksum: sha256:91bafd6e06099451f60288327b275cfcc651822f6145176a157c6b0fa5131e02
+    name: pkgconf-m4
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/p/pkgconf-pkg-config-1.7.3-10.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 12416
+    checksum: sha256:1d641be62db76b074f4ca2d6b470d85dcf806d96e2c834337482a73984db1979
+    name: pkgconf-pkg-config
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/r/redhat-release-9.6-0.1.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 45208
+    checksum: sha256:1f63183436cf44c469e0a14c5664ab1a050e570f9435dd5fd7481d214bb3d2a9
+    name: redhat-release
+    evr: 9.6-0.1.el9
+    sourcerpm: redhat-release-9.6-0.1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/r/redhat-release-eula-9.6-0.1.el9.ppc64le.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 12464
+    checksum: sha256:478b4031f4733b7d108f934cb34a652c85a431bc8d5db5c69fc4f27338c45cdd
+    name: redhat-release-eula
+    evr: 9.6-0.1.el9
+    sourcerpm: redhat-release-9.6-0.1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/s/setup-2.13.7-10.el9.noarch.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 153791
+    checksum: sha256:0891d395ce067121c28932534237ad1ce231f2bfa987411ad62e73a12d11eb6a
+    name: setup
+    evr: 2.13.7-10.el9
+    sourcerpm: setup-2.13.7-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/t/tzdata-2025b-1.el9.noarch.rpm
+    repoid: rhel-9-for-ppc64le-baseos-rpms
+    size: 862160
+    checksum: sha256:0687e5a1115ba679137404c8d37a45141a31968ffd01677455530d24c126a0d2
+    name: tzdata
+    evr: 2025b-1.el9
+    sourcerpm: tzdata-2025b-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.23.ppc64le.rpm
+    repoid: codeready-builder-for-rhel-9-ppc64le-rpms
+    size: 1564734
+    checksum: sha256:eb408fb3596a248959eb8bfc3381fcb8057a984d5625ef9c2f051e4130ca2ee5
+    name: glibc-static
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/codeready-builder/os/Packages/l/libxcrypt-static-4.4.18-3.el9.ppc64le.rpm
+    repoid: codeready-builder-for-rhel-9-ppc64le-rpms
+    size: 123100
+    checksum: sha256:e81338b13512e1543f15bf63dfe2dce7ad8bd4d8cbd24c30d320ead90a8d01a1
+    name: libxcrypt-static
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  source:
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/b/basesystem-11-13.el9.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 9884
+    checksum: sha256:5a4ed0779fc06f08115d6e06aa95486f1e1e251f8f9ddb6c7e14e811bb2e24ef
+    name: basesystem
+    evr: 11-13.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/b/bash-5.1.8-9.el9.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 10512850
+    checksum: sha256:5d7bbbf2538361be1a11846602862c3a56809b3ea43b69b86bcf407538e9e260
+    name: bash
+    evr: 5.1.8-9.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/f/filesystem-3.16-5.el9.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 20486
+    checksum: sha256:c795690df30c46e521372e2f649c995a2abc159b76c8ef6cd5da8a713ea17937
+    name: filesystem
+    evr: 3.16-5.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/gcc-11.5.0-5.el9_5.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 81877102
+    checksum: sha256:ed35dd39cd89aec444199a916667169638150fd12199dbb3c3d2638e43121565
+    name: gcc
+    evr: 11.5.0-5.el9_5
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.23.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 19844337
+    checksum: sha256:2495e3b229885e01ffd5dec87ea83d52022235c081e8fb19f6744a9e821b044f
+    name: glibc
+    evr: 2.34-168.el9_6.23
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/k/kernel-5.14.0-570.51.1.el9_6.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 149441640
+    checksum: sha256:9c06e96910f96e8a22e7d4063111815b5f38058f3a3280c266d9b61d8f909c58
+    name: kernel
+    evr: 5.14.0-570.51.1.el9_6
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/l/libxcrypt-4.4.18-3.el9.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 543970
+    checksum: sha256:d18f72eb41ecd0370e2e47f1dc5774be54e9ff3b4dd333578017666c7c488f40
+    name: libxcrypt
+    evr: 4.4.18-3.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/n/ncurses-6.2-10.20210508.el9_6.2.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 3587058
+    checksum: sha256:2c3309af9b6637047a8dec3f7e84c03da6fa4ab9570d78cad92c045bfd0fa1e3
+    name: ncurses
+    evr: 6.2-10.20210508.el9_6.2
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 310904
+    checksum: sha256:4d53718592b298ca7c49665b1f4e7bd32dcb42cad15c89345585da9f20d4fcae
+    name: pkgconf
+    evr: 1.7.3-10.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/r/redhat-release-9.6-0.1.el9.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 62469
+    checksum: sha256:6720f3d5c6675bbf8d79ce5424f891a34303e0c5c39be0e52ca51f70107f585b
+    name: redhat-release
+    evr: 9.6-0.1.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/s/setup-2.13.7-10.el9.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 195940
+    checksum: sha256:3acdbbd63bd77dd8b18210b9d597bd59ddf455ff728067638c54194ac3a8a32b
+    name: setup
+    evr: 2.13.7-10.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/t/tzdata-2025b-1.el9.src.rpm
+    repoid: rhel-9-for-ppc64le-baseos-source-rpms
+    size: 904607
+    checksum: sha256:a2668d1f6b053545a5824a428755484895d72475a9d3833cbfbec9e08660aba2
+    name: tzdata
+    evr: 2025b-1.el9
+  module_metadata: []
+- arch: s390x
+  packages:
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.s390x.rpm
+    repoid: rhel-9-for-s390x-appstream-rpms
+    size: 42091
+    checksum: sha256:caef36d44d8d2bfcd11d3879e07132e8e0891e281c1fa37ec2a386e5ae7ff799
+    name: glibc-devel
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.23.s390x.rpm
+    repoid: rhel-9-for-s390x-appstream-rpms
+    size: 543913
+    checksum: sha256:8b756405867ff6d7934a9e79158df046cdaa33d14e044500e00f794c2a271980
+    name: glibc-headers
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-570.51.1.el9_6.s390x.rpm
+    repoid: rhel-9-for-s390x-appstream-rpms
+    size: 3719173
+    checksum: sha256:933523da0a68807737f032b80e1c1566a28666a1418cac966d8c1ce3f7fc74d6
+    name: kernel-headers
+    evr: 5.14.0-570.51.1.el9_6
+    sourcerpm: kernel-5.14.0-570.51.1.el9_6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/l/libxcrypt-devel-4.4.18-3.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-appstream-rpms
+    size: 33073
+    checksum: sha256:b3f6b6b72b5c96a8527e6dd46c421066f94d48f0ada76bbc638bf89f81b19360
+    name: libxcrypt-devel
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/b/basesystem-11-13.el9.noarch.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 8229
+    checksum: sha256:f498b0813fa1a825d550e8e3a9e42255eabfa18e6fc96adfc6cc8fa7e16dd513
+    name: basesystem
+    evr: 11-13.el9
+    sourcerpm: basesystem-11-13.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/b/bash-5.1.8-9.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 1757781
+    checksum: sha256:18754c45f7586239508e9c6160ff42999eb326314d3e3adc5d54cc3661912da3
+    name: bash
+    evr: 5.1.8-9.el9
+    sourcerpm: bash-5.1.8-9.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/f/filesystem-3.16-5.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 5003897
+    checksum: sha256:80e6764c9041b5abfb955f5b86b6c73f0305eb54b92ac7a11537729047470167
+    name: filesystem
+    evr: 3.16-5.el9
+    sourcerpm: filesystem-3.16-5.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-2.34-168.el9_6.23.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 1762368
+    checksum: sha256:7d8addc0c08ecf6a828418e9a1f0d91c7712d061784e5db7feca3e91aa65b455
+    name: glibc
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.23.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 314220
+    checksum: sha256:82eb7547d41295ab157060a894ddfdd8a871b6c39ad855e9eaf6992c5261826d
+    name: glibc-common
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-gconv-extra-2.34-168.el9_6.23.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 1739831
+    checksum: sha256:7bd874e940539bc92489dcd8699a837857b4e248c61e64bb9518de790340f9c2
+    name: glibc-gconv-extra
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.23.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 18685
+    checksum: sha256:cef35404085c4d354adfe94f453d8835745ae1eee72fab5fb4b3542edcd11f4f
+    name: glibc-minimal-langpack
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 71563
+    checksum: sha256:b8234dacbc0032cc8e074aed0e9ad8989e9d9a05802832b3e2c004954270536e
+    name: libgcc
+    evr: 11.5.0-5.el9_5
+    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 37876
+    checksum: sha256:fa1da3b44d85663cceaa0faf8eb5f2f7325cc83c381d6018f303edd06cab5938
+    name: libpkgconf
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/l/libxcrypt-4.4.18-3.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 125532
+    checksum: sha256:c5b89459884f858b3527c879cda2b0576fa27b7e1e5005a98f2cab573291f979
+    name: libxcrypt
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/n/ncurses-base-6.2-10.20210508.el9_6.2.noarch.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 97903
+    checksum: sha256:13491d7ce61e0c5ef82451936c68acf5d04dc437a624e0f74b89904bc0fbe330
+    name: ncurses-base
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/n/ncurses-libs-6.2-10.20210508.el9_6.2.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 328765
+    checksum: sha256:650f7f073a65e7431f15f9b63dca8f806cbdb21c7fc62a7ae109fa6acd1c8d92
+    name: ncurses-libs
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 45258
+    checksum: sha256:a5f966f792cacc4696e4187593a915fb56452dd272cf4c81d930968adb3ee00c
+    name: pkgconf
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/p/pkgconf-m4-1.7.3-10.el9.noarch.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 16054
+    checksum: sha256:91bafd6e06099451f60288327b275cfcc651822f6145176a157c6b0fa5131e02
+    name: pkgconf-m4
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/p/pkgconf-pkg-config-1.7.3-10.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 12411
+    checksum: sha256:ef854bfe75102d994afb58510121164c4b9b8359b7d983cd8904c425a175b750
+    name: pkgconf-pkg-config
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/r/redhat-release-9.6-0.1.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 45172
+    checksum: sha256:33e049376c246a5689d6cff7004abf3c66c1f5cc611e8cf98c7b2b69ced59080
+    name: redhat-release
+    evr: 9.6-0.1.el9
+    sourcerpm: redhat-release-9.6-0.1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/r/redhat-release-eula-9.6-0.1.el9.s390x.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 12455
+    checksum: sha256:8a086888550f3b3342a3e0daa95c333902e02489ae4a87f694652f10b91b0eb6
+    name: redhat-release-eula
+    evr: 9.6-0.1.el9
+    sourcerpm: redhat-release-9.6-0.1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/s/setup-2.13.7-10.el9.noarch.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 153791
+    checksum: sha256:0891d395ce067121c28932534237ad1ce231f2bfa987411ad62e73a12d11eb6a
+    name: setup
+    evr: 2.13.7-10.el9
+    sourcerpm: setup-2.13.7-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/t/tzdata-2025b-1.el9.noarch.rpm
+    repoid: rhel-9-for-s390x-baseos-rpms
+    size: 862160
+    checksum: sha256:0687e5a1115ba679137404c8d37a45141a31968ffd01677455530d24c126a0d2
+    name: tzdata
+    evr: 2025b-1.el9
+    sourcerpm: tzdata-2025b-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.23.s390x.rpm
+    repoid: codeready-builder-for-rhel-9-s390x-rpms
+    size: 1185836
+    checksum: sha256:d8859d0ee16078ecdfe7a92dec364ffb2d3f983d9371e5fff10b55ecbc5dd981
+    name: glibc-static
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/codeready-builder/os/Packages/l/libxcrypt-static-4.4.18-3.el9.s390x.rpm
+    repoid: codeready-builder-for-rhel-9-s390x-rpms
+    size: 106736
+    checksum: sha256:c1b21e2c2dadba8339f04831ea075af70f0c3d04ecd1272d9b33ab340695e589
+    name: libxcrypt-static
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  source:
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/b/basesystem-11-13.el9.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 9884
+    checksum: sha256:5a4ed0779fc06f08115d6e06aa95486f1e1e251f8f9ddb6c7e14e811bb2e24ef
+    name: basesystem
+    evr: 11-13.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/b/bash-5.1.8-9.el9.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 10512850
+    checksum: sha256:5d7bbbf2538361be1a11846602862c3a56809b3ea43b69b86bcf407538e9e260
+    name: bash
+    evr: 5.1.8-9.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/f/filesystem-3.16-5.el9.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 20486
+    checksum: sha256:c795690df30c46e521372e2f649c995a2abc159b76c8ef6cd5da8a713ea17937
+    name: filesystem
+    evr: 3.16-5.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/gcc-11.5.0-5.el9_5.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 81877102
+    checksum: sha256:ed35dd39cd89aec444199a916667169638150fd12199dbb3c3d2638e43121565
+    name: gcc
+    evr: 11.5.0-5.el9_5
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.23.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 19844337
+    checksum: sha256:2495e3b229885e01ffd5dec87ea83d52022235c081e8fb19f6744a9e821b044f
+    name: glibc
+    evr: 2.34-168.el9_6.23
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/k/kernel-5.14.0-570.51.1.el9_6.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 149441640
+    checksum: sha256:9c06e96910f96e8a22e7d4063111815b5f38058f3a3280c266d9b61d8f909c58
+    name: kernel
+    evr: 5.14.0-570.51.1.el9_6
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/l/libxcrypt-4.4.18-3.el9.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 543970
+    checksum: sha256:d18f72eb41ecd0370e2e47f1dc5774be54e9ff3b4dd333578017666c7c488f40
+    name: libxcrypt
+    evr: 4.4.18-3.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/n/ncurses-6.2-10.20210508.el9_6.2.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 3587058
+    checksum: sha256:2c3309af9b6637047a8dec3f7e84c03da6fa4ab9570d78cad92c045bfd0fa1e3
+    name: ncurses
+    evr: 6.2-10.20210508.el9_6.2
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 310904
+    checksum: sha256:4d53718592b298ca7c49665b1f4e7bd32dcb42cad15c89345585da9f20d4fcae
+    name: pkgconf
+    evr: 1.7.3-10.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/r/redhat-release-9.6-0.1.el9.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 62469
+    checksum: sha256:6720f3d5c6675bbf8d79ce5424f891a34303e0c5c39be0e52ca51f70107f585b
+    name: redhat-release
+    evr: 9.6-0.1.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/s/setup-2.13.7-10.el9.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 195940
+    checksum: sha256:3acdbbd63bd77dd8b18210b9d597bd59ddf455ff728067638c54194ac3a8a32b
+    name: setup
+    evr: 2.13.7-10.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/t/tzdata-2025b-1.el9.src.rpm
+    repoid: rhel-9-for-s390x-baseos-source-rpms
+    size: 904607
+    checksum: sha256:a2668d1f6b053545a5824a428755484895d72475a9d3833cbfbec9e08660aba2
+    name: tzdata
+    evr: 2025b-1.el9
+  module_metadata: []
+- arch: x86_64
+  packages:
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 34295
+    checksum: sha256:0fa11752abf8ee80658e10017c62f7c0301bcae4008e4716fe6f114a7b9e3977
+    name: glibc-devel
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.23.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 553222
+    checksum: sha256:b090ce707af3eb4d6a20e57fe780502d363892ecaaa41bc1575e4c6c5912f2ab
+    name: glibc-headers
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.51.1.el9_6.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 3727833
+    checksum: sha256:72a5485f6ca94f8b6ce4296a1af9a7eac54819a8242f0d0d72b097461d0e034e
+    name: kernel-headers
+    evr: 5.14.0-570.51.1.el9_6
+    sourcerpm: kernel-5.14.0-570.51.1.el9_6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libxcrypt-devel-4.4.18-3.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 33101
+    checksum: sha256:c1d171391a7d2e043a6953efd3df3e01edc9b4c6cdb54517e1608d204a5fce18
+    name: libxcrypt-devel
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/b/basesystem-11-13.el9.noarch.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 8229
+    checksum: sha256:f498b0813fa1a825d550e8e3a9e42255eabfa18e6fc96adfc6cc8fa7e16dd513
+    name: basesystem
+    evr: 11-13.el9
+    sourcerpm: basesystem-11-13.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/b/bash-5.1.8-9.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 1769540
+    checksum: sha256:d3adf8b09aa0bf935c67aa12444e0ee02f70a82c2682bfb2b02bda0a989bb806
+    name: bash
+    evr: 5.1.8-9.el9
+    sourcerpm: bash-5.1.8-9.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/f/filesystem-3.16-5.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 5003807
+    checksum: sha256:9567592e6e32a9ebd45584cc4feb5d00812f143fcb2d8cd8b1d95108f4f66a2d
+    name: filesystem
+    evr: 3.16-5.el9
+    sourcerpm: filesystem-3.16-5.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-2.34-168.el9_6.23.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 2052524
+    checksum: sha256:47a7eaa890012f8de224fa8e1f553030200f38ef7c5aab9b236d34cc4f0e1deb
+    name: glibc
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.23.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 310131
+    checksum: sha256:9e6bfff5d0b0533b1037be4fc6bc6b9cd7dd73c55adecfa3edcda02190f1e7da
+    name: glibc-common
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.34-168.el9_6.23.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 1753998
+    checksum: sha256:065f2e745d62034fa3f72cb138ba599338c491921d5c0a9ad4900725721f0507
+    name: glibc-gconv-extra
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.23.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 18705
+    checksum: sha256:77f381d7fac07303eca760d0d1e51bf417d8b2ad61d5b121d85d25e546cfbff3
+    name: glibc-minimal-langpack
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libgcc-11.5.0-5.el9_5.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 89621
+    checksum: sha256:6f7bc4ed734b01d36f9dba66f34f610f2f39e5280588814a666b4d4be2dd8807
+    name: libgcc
+    evr: 11.5.0-5.el9_5
+    sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 38387
+    checksum: sha256:4feae5941b73640bd86b8d506a657cac5b770043db1464fbcd207721b2159dda
+    name: libpkgconf
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libxcrypt-4.4.18-3.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 122599
+    checksum: sha256:a50bb26a28ee7e6379c86b5b91285299b71569fa87ea968d800a56090b7a179d
+    name: libxcrypt
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/ncurses-base-6.2-10.20210508.el9_6.2.noarch.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 97903
+    checksum: sha256:13491d7ce61e0c5ef82451936c68acf5d04dc437a624e0f74b89904bc0fbe330
+    name: ncurses-base
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/ncurses-libs-6.2-10.20210508.el9_6.2.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 336762
+    checksum: sha256:519ec674b3ff4efb7ce31f1f87584f5409d341b6dde543fcba7dac89dfc05e1b
+    name: ncurses-libs
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/pkgconf-1.7.3-10.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 45675
+    checksum: sha256:bb47b4ecc499c308f41031a99e723827d152d5d750f59849d0c265d820944a26
+    name: pkgconf
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/pkgconf-m4-1.7.3-10.el9.noarch.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 16054
+    checksum: sha256:91bafd6e06099451f60288327b275cfcc651822f6145176a157c6b0fa5131e02
+    name: pkgconf-m4
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/pkgconf-pkg-config-1.7.3-10.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 12438
+    checksum: sha256:9a502d81d73d3303ceb53a06ad7ce525c97117ea64352174a33708bf3429283d
+    name: pkgconf-pkg-config
+    evr: 1.7.3-10.el9
+    sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/r/redhat-release-9.6-0.1.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 45201
+    checksum: sha256:398d7315a731a2de704ce0778909319dde39abab328e1259b95fbf8207c8a98c
+    name: redhat-release
+    evr: 9.6-0.1.el9
+    sourcerpm: redhat-release-9.6-0.1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/r/redhat-release-eula-9.6-0.1.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 12477
+    checksum: sha256:fa313cd54f7430fc08f149c042826ce060136c26eb0b17799d43d9673a236dcc
+    name: redhat-release-eula
+    evr: 9.6-0.1.el9
+    sourcerpm: redhat-release-9.6-0.1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/setup-2.13.7-10.el9.noarch.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 153791
+    checksum: sha256:0891d395ce067121c28932534237ad1ce231f2bfa987411ad62e73a12d11eb6a
+    name: setup
+    evr: 2.13.7-10.el9
+    sourcerpm: setup-2.13.7-10.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tzdata-2025b-1.el9.noarch.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 862160
+    checksum: sha256:0687e5a1115ba679137404c8d37a45141a31968ffd01677455530d24c126a0d2
+    name: tzdata
+    evr: 2025b-1.el9
+    sourcerpm: tzdata-2025b-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.23.x86_64.rpm
+    repoid: codeready-builder-for-rhel-9-x86_64-rpms
+    size: 1510592
+    checksum: sha256:e1ae5c35de48d3062c489cd82e6babc525ecc37a920d2ffb4de615e271f9ddc4
+    name: glibc-static
+    evr: 2.34-168.el9_6.23
+    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/l/libxcrypt-static-4.4.18-3.el9.x86_64.rpm
+    repoid: codeready-builder-for-rhel-9-x86_64-rpms
+    size: 105711
+    checksum: sha256:e2b914f5e136df3c90367dc222e9d893d0c34662f9f2d496b0cadd7d277c579a
+    name: libxcrypt-static
+    evr: 4.4.18-3.el9
+    sourcerpm: libxcrypt-4.4.18-3.el9.src.rpm
+  source:
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/b/basesystem-11-13.el9.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 9884
+    checksum: sha256:5a4ed0779fc06f08115d6e06aa95486f1e1e251f8f9ddb6c7e14e811bb2e24ef
+    name: basesystem
+    evr: 11-13.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/b/bash-5.1.8-9.el9.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 10512850
+    checksum: sha256:5d7bbbf2538361be1a11846602862c3a56809b3ea43b69b86bcf407538e9e260
+    name: bash
+    evr: 5.1.8-9.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/f/filesystem-3.16-5.el9.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 20486
+    checksum: sha256:c795690df30c46e521372e2f649c995a2abc159b76c8ef6cd5da8a713ea17937
+    name: filesystem
+    evr: 3.16-5.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/gcc-11.5.0-5.el9_5.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 81877102
+    checksum: sha256:ed35dd39cd89aec444199a916667169638150fd12199dbb3c3d2638e43121565
+    name: gcc
+    evr: 11.5.0-5.el9_5
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.23.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 19844337
+    checksum: sha256:2495e3b229885e01ffd5dec87ea83d52022235c081e8fb19f6744a9e821b044f
+    name: glibc
+    evr: 2.34-168.el9_6.23
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-570.51.1.el9_6.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 149441640
+    checksum: sha256:9c06e96910f96e8a22e7d4063111815b5f38058f3a3280c266d9b61d8f909c58
+    name: kernel
+    evr: 5.14.0-570.51.1.el9_6
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/l/libxcrypt-4.4.18-3.el9.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 543970
+    checksum: sha256:d18f72eb41ecd0370e2e47f1dc5774be54e9ff3b4dd333578017666c7c488f40
+    name: libxcrypt
+    evr: 4.4.18-3.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/n/ncurses-6.2-10.20210508.el9_6.2.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 3587058
+    checksum: sha256:2c3309af9b6637047a8dec3f7e84c03da6fa4ab9570d78cad92c045bfd0fa1e3
+    name: ncurses
+    evr: 6.2-10.20210508.el9_6.2
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/p/pkgconf-1.7.3-10.el9.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 310904
+    checksum: sha256:4d53718592b298ca7c49665b1f4e7bd32dcb42cad15c89345585da9f20d4fcae
+    name: pkgconf
+    evr: 1.7.3-10.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/r/redhat-release-9.6-0.1.el9.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 62469
+    checksum: sha256:6720f3d5c6675bbf8d79ce5424f891a34303e0c5c39be0e52ca51f70107f585b
+    name: redhat-release
+    evr: 9.6-0.1.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/s/setup-2.13.7-10.el9.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 195940
+    checksum: sha256:3acdbbd63bd77dd8b18210b9d597bd59ddf455ff728067638c54194ac3a8a32b
+    name: setup
+    evr: 2.13.7-10.el9
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2025b-1.el9.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 904607
+    checksum: sha256:a2668d1f6b053545a5824a428755484895d72475a9d3833cbfbec9e08660aba2
+    name: tzdata
+    evr: 2025b-1.el9
+  module_metadata: []
