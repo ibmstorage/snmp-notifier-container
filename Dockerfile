@@ -7,10 +7,7 @@ COPY snmp_notifier snmp_notifier
 
 WORKDIR snmp_notifier
 
-# The base image has glibc-langpack-en which causes issues with glibc-static installation.
-# So removing it will resolve the issue in the hermetic build
-RUN dnf remove -y glibc-langpack-en \
-  && dnf install -y glibc glibc-devel glibc-static
+RUN dnf install -y glibc-static
 
 # Build the binary
 RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -mod=readonly \
