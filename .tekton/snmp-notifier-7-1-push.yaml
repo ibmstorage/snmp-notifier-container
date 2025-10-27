@@ -206,7 +206,7 @@ spec:
         workspace: git-auth
       - name: netrc
         workspace: netrc
-      - matrix:
+    - matrix:
         params:
         - name: PLATFORM
           value:
@@ -341,7 +341,7 @@ spec:
         operator: in
         values:
         - "false"
-      - matrix:
+    - matrix:
         params:
         - name: image-platform
           value:
@@ -388,7 +388,7 @@ spec:
         operator: in
         values:
         - "false"
-      - matrix:
+      matrix:
         params:
         - name: platform
           value:
@@ -441,7 +441,7 @@ spec:
         operator: in
         values:
         - "false"
-      - matrix:
+      matrix:
         params:
         - name: image-arch
           value:
@@ -572,8 +572,8 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: ADDITIONAL_TAGS
         value:
-          - "v7.1"
-          - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
+        - "v7.1"
+        - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
       - build-image-index
       taskRef:
