@@ -10,7 +10,13 @@ arches:
   - ppc64le
   - s390x
 
+context:
+    containerfile:
+      file: Dockerfile
+      stageName: builder
+
 packages:
   - glibc-static
 
-allowerasing: true
+reinstallPackages:
+  - '*'
