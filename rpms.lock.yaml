@@ -74,13 +74,13 @@ arches:
     name: info
     evr: 6.5-7.el8
     sourcerpm: texinfo-6.5-7.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.80.1.el8_10.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.82.1.el8_10.aarch64.rpm
     repoid: ubi-8-baseos-rpms
-    size: 12408460
-    checksum: sha256:dce44720a1866a7730f17f4b263db7af60bdb6c655c7d17caf0a47fe42acca1d
+    size: 12430416
+    checksum: sha256:8b35021292410d09b09954178794f96a482185d4ff6ea516ceae71c44b5fa3c9
     name: kernel-headers
-    evr: 4.18.0-553.80.1.el8_10
-    sourcerpm: kernel-4.18.0-553.80.1.el8_10.src.rpm
+    evr: 4.18.0-553.82.1.el8_10
+    sourcerpm: kernel-4.18.0-553.82.1.el8_10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libgcc-8.5.0-28.el8_10.aarch64.rpm
     repoid: ubi-8-baseos-rpms
     size: 77296
@@ -281,13 +281,13 @@ arches:
     name: info
     evr: 6.5-7.el8
     sourcerpm: texinfo-6.5-7.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.80.1.el8_10.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.82.1.el8_10.ppc64le.rpm
     repoid: ubi-8-baseos-rpms
-    size: 12427796
-    checksum: sha256:9729f36ae2e659393e533d4fe806b42c40032ccc6f33150c063b7e7d81df8619
+    size: 12449712
+    checksum: sha256:d13d5e1ab6b94d53d82ec4bf09cadd8379c048756b01f80e4fe63a91739fcba2
     name: kernel-headers
-    evr: 4.18.0-553.80.1.el8_10
-    sourcerpm: kernel-4.18.0-553.80.1.el8_10.src.rpm
+    evr: 4.18.0-553.82.1.el8_10
+    sourcerpm: kernel-4.18.0-553.82.1.el8_10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libgcc-8.5.0-28.el8_10.ppc64le.rpm
     repoid: ubi-8-baseos-rpms
     size: 72884
@@ -488,13 +488,13 @@ arches:
     name: info
     evr: 6.5-7.el8
     sourcerpm: texinfo-6.5-7.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.81.1.el8_10.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.82.1.el8_10.s390x.rpm
     repoid: ubi-8-baseos-rpms
-    size: 12443632
-    checksum: sha256:5dd2d83316e92a558b10995c0abd1cdb5c63f25282606a8493b7d240514bd395
+    size: 12457328
+    checksum: sha256:8f54f5edbf61dae13b60a2431c0c3781b15ca2a443e36728744f4e74ba500cd3
     name: kernel-headers
-    evr: 4.18.0-553.81.1.el8_10
-    sourcerpm: kernel-4.18.0-553.81.1.el8_10.src.rpm
+    evr: 4.18.0-553.82.1.el8_10
+    sourcerpm: kernel-4.18.0-553.82.1.el8_10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libgcc-8.5.0-28.el8_10.s390x.rpm
     repoid: ubi-8-baseos-rpms
     size: 68068
@@ -695,13 +695,13 @@ arches:
     name: info
     evr: 6.5-7.el8
     sourcerpm: texinfo-6.5-7.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.80.1.el8_10.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.82.1.el8_10.x86_64.rpm
     repoid: ubi-8-baseos-rpms
-    size: 12440168
-    checksum: sha256:f8be82dcb2b73527c6c2a491c3442d52d4bad83825929a68b1d07eb14671d098
+    size: 12462132
+    checksum: sha256:796f5dad2d6a8b7841603258254e2321d00b5865d090346aa0308ad29ca01be7
     name: kernel-headers
-    evr: 4.18.0-553.80.1.el8_10
-    sourcerpm: kernel-4.18.0-553.80.1.el8_10.src.rpm
+    evr: 4.18.0-553.82.1.el8_10
+    sourcerpm: kernel-4.18.0-553.82.1.el8_10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libgcc-8.5.0-28.el8_10.x86_64.rpm
     repoid: ubi-8-baseos-rpms
     size: 84328
