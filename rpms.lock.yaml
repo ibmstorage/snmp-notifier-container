@@ -25,13 +25,13 @@ arches:
     name: gdb-gdbserver
     evr: 10.2-13.el9
     sourcerpm: gdb-10.2-13.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.24.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 563020
-    checksum: sha256:df23a305d84fb32a97cab65f941d968900f9c6c1e165d8d3509ec7a328d285ed
+    size: 561564
+    checksum: sha256:775e17a2f79a700ba9c3f2407e6a55b2a356b31ff3484581eb7f5086b2e0bee8
     name: glibc-devel
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/golang-1.24.6-1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 1321232
@@ -774,34 +774,34 @@ arches:
     name: gdbm-libs
     evr: 1:1.19-4.el9
     sourcerpm: gdbm-1.19-4.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-2.34-168.el9_6.23.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-2.34-168.el9_6.24.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 1788790
-    checksum: sha256:45553330695edb681ef660a904f9f98ceead2307b42c640abb4a37c99529d166
+    size: 1786734
+    checksum: sha256:acd013408b08fc990bc58735273841475edb0736ec0a5dc932d1d01a73cd23f0
     name: glibc
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.23.aarch64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.24.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 300030
-    checksum: sha256:4966b8bd32e310015b46793a92497a9c837670da46f4a9db1dd06590bd3c6ef4
+    size: 298261
+    checksum: sha256:c7d35f66f56489fcd15470cacbda77b6e6ffbe709ee49f7c46f3f403933752f1
     name: glibc-common
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.23.aarch64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.24.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 671866
-    checksum: sha256:10050c7121b0c2f4d3faafb1d14eb9aafa5f95ed0b01ba2679051659afabd8b1
+    size: 670305
+    checksum: sha256:4a569fc59c5d04fc2166b9b6570d4d80a9fba2dfadf8b26f82226aae1ad92881
     name: glibc-langpack-en
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.23.aarch64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.24.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 18673
-    checksum: sha256:08b46974c6d4dd1bfcbac0f4536405ec83f116c15c45f775a09f0eb5f2278e48
+    size: 17281
+    checksum: sha256:4f7cb378501bd7e9a09e5ea4659277d6094086879d9574426f9bff1b77636481
     name: glibc-minimal-langpack
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/gmp-6.2.0-13.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 275679
@@ -1733,13 +1733,13 @@ arches:
     name: zlib
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.23.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.24.aarch64.rpm
     repoid: codeready-builder-for-rhel-9-aarch64-rpms
-    size: 1234855
-    checksum: sha256:7b1375c3e2aa89c4a200a43ac94a425b6d1a16e675a8401a50996e814172586b
+    size: 1233227
+    checksum: sha256:1792a78ef6a261dd2b4e17c32faceb019fd777a272622d66393771c75811781e
     name: glibc-static
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/g/gpgme-devel-1.15.1-6.el9.aarch64.rpm
     repoid: codeready-builder-for-rhel-9-aarch64-rpms
     size: 169701
@@ -2236,12 +2236,12 @@ arches:
     checksum: sha256:42b39811b826263ecb11bcb556b7d8e9619947eb4f5ac6fca5bfa80969bea275
     name: gdbm
     evr: 1:1.19-4.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.24.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 19844337
-    checksum: sha256:2495e3b229885e01ffd5dec87ea83d52022235c081e8fb19f6744a9e821b044f
+    size: 19844004
+    checksum: sha256:7c3dc8448748d98fb9af6f1ec0115ea61b0618135f5eb0104298bc1f9927eea3
     name: glibc
-    evr: 2.34-168.el9_6.23
+    evr: 2.34-168.el9_6.24
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/gmp-6.2.0-13.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 2503825
@@ -2884,13 +2884,13 @@ arches:
     name: gdb-gdbserver
     evr: 10.2-13.el9
     sourcerpm: gdb-10.2-13.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.24.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 574097
-    checksum: sha256:4b6108abc42324a64434f220defcadac8566369c8e632dfa2c56e3c8d878cd40
+    size: 572653
+    checksum: sha256:00ae0777b7de257655880c7f985e4c25be92450f59c0b818a83486f2ac5f06ef
     name: glibc-devel
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/golang-1.24.6-1.el9_6.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 1319334
@@ -3626,34 +3626,34 @@ arches:
     name: gdbm-libs
     evr: 1:1.19-4.el9
     sourcerpm: gdbm-1.19-4.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-2.34-168.el9_6.23.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-2.34-168.el9_6.24.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 2850447
-    checksum: sha256:514cd36a6f2efc790fa23b1d3bf3fb353e0a99c160228a2b7cebd43f62547919
+    size: 2847060
+    checksum: sha256:48b1f0c3ce8551a3f587d05fd4d5ceb22b75d352f40ad356a611510b14d07097
     name: glibc
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.23.ppc64le.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.24.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 326633
-    checksum: sha256:9639715bde38dd16e9cee2b1e15f0266f738a077599b115b55775a539681582c
+    size: 325530
+    checksum: sha256:5aaf88cc433ad9b7433345cb2e9dd414ac481c890bdbf93f59d18b759415b42e
     name: glibc-common
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.23.ppc64le.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.24.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 671943
-    checksum: sha256:ba317d810cc6568ae162ab1076821fba3fda2413220c0b847c98b75e1010c61e
+    size: 670486
+    checksum: sha256:9b3fa94ffb6ea749c3a228028bfcc6487fd7fcd4a31447bd0663c21947cac180
     name: glibc-langpack-en
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.23.ppc64le.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.24.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 18689
-    checksum: sha256:4b1f6d7170f88d9014e4956688d5cb0e3a4c8e1e329d6f21fd2c6ce9aa2fd2c6
+    size: 17301
+    checksum: sha256:126d6c621157d222aff7939b3e2cff35c218ce618a332b2e4282b063d47500ad
     name: glibc-minimal-langpack
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/gmp-6.2.0-13.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 312805
@@ -4592,13 +4592,13 @@ arches:
     name: zlib
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.23.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.24.ppc64le.rpm
     repoid: codeready-builder-for-rhel-9-ppc64le-rpms
-    size: 1564734
-    checksum: sha256:eb408fb3596a248959eb8bfc3381fcb8057a984d5625ef9c2f051e4130ca2ee5
+    size: 1561922
+    checksum: sha256:8c2986b7e9c7e327f340d83ebcf7fe3854f45f1aa1e0d9657efbe1f9dac3fb40
     name: glibc-static
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/codeready-builder/os/Packages/g/gpgme-devel-1.15.1-6.el9.ppc64le.rpm
     repoid: codeready-builder-for-rhel-9-ppc64le-rpms
     size: 172752
@@ -5089,12 +5089,12 @@ arches:
     checksum: sha256:42b39811b826263ecb11bcb556b7d8e9619947eb4f5ac6fca5bfa80969bea275
     name: gdbm
     evr: 1:1.19-4.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.24.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 19844337
-    checksum: sha256:2495e3b229885e01ffd5dec87ea83d52022235c081e8fb19f6744a9e821b044f
+    size: 19844004
+    checksum: sha256:7c3dc8448748d98fb9af6f1ec0115ea61b0618135f5eb0104298bc1f9927eea3
     name: glibc
-    evr: 2.34-168.el9_6.23
+    evr: 2.34-168.el9_6.24
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/gmp-6.2.0-13.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 2503825
@@ -5743,20 +5743,20 @@ arches:
     name: gdb-gdbserver
     evr: 10.2-13.el9
     sourcerpm: gdb-10.2-13.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.24.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
-    size: 42091
-    checksum: sha256:caef36d44d8d2bfcd11d3879e07132e8e0891e281c1fa37ec2a386e5ae7ff799
+    size: 40678
+    checksum: sha256:ebe87d7516d1228777bd0c849bcf6f7c6902ae29e885ee84e5e1b33acb6983e2
     name: glibc-devel
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.23.s390x.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.24.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
-    size: 543913
-    checksum: sha256:8b756405867ff6d7934a9e79158df046cdaa33d14e044500e00f794c2a271980
+    size: 542590
+    checksum: sha256:b1d39608fee219c1c445931d8eebb2ce7958e3cd0b80d2a937c8be960cb674db
     name: glibc-headers
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/golang-1.24.6-1.el9_6.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 1320885
@@ -6492,34 +6492,34 @@ arches:
     name: gdbm-libs
     evr: 1:1.19-4.el9
     sourcerpm: gdbm-1.19-4.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-2.34-168.el9_6.23.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-2.34-168.el9_6.24.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 1762368
-    checksum: sha256:7d8addc0c08ecf6a828418e9a1f0d91c7712d061784e5db7feca3e91aa65b455
+    size: 1761635
+    checksum: sha256:47ca7b769b76133b251e1ac4004e915c2ca878adce90943bf9d20729731ccad5
     name: glibc
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.23.s390x.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.24.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 314220
-    checksum: sha256:82eb7547d41295ab157060a894ddfdd8a871b6c39ad855e9eaf6992c5261826d
+    size: 312871
+    checksum: sha256:0eb9fab91c0cc3ac5f402930a8bfddd95cd2db1375dae9c57043967c3feb5d2d
     name: glibc-common
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.23.s390x.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.24.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 622560
-    checksum: sha256:f114f921e45ecc7810519e292ee2bcb3e7050aa9befc6f3ddd32344723ccb4f3
+    size: 621079
+    checksum: sha256:ac3731a8fb677e9fb406cc0182dbc8a87283f6c5d248268b020c8a748a6134d2
     name: glibc-langpack-en
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.23.s390x.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.24.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 18685
-    checksum: sha256:cef35404085c4d354adfe94f453d8835745ae1eee72fab5fb4b3542edcd11f4f
+    size: 17285
+    checksum: sha256:b3d14db8c2e94379acab25315131cf7529d6b0631db4acdeee0936f9a2551887
     name: glibc-minimal-langpack
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/gmp-6.2.0-13.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 296399
@@ -7451,13 +7451,13 @@ arches:
     name: zlib
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.23.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.24.s390x.rpm
     repoid: codeready-builder-for-rhel-9-s390x-rpms
-    size: 1185836
-    checksum: sha256:d8859d0ee16078ecdfe7a92dec364ffb2d3f983d9371e5fff10b55ecbc5dd981
+    size: 1184264
+    checksum: sha256:27515c9a9883ed10d2e5ab6009a4bcf63a0554e2ce0d90463f6ba4be8f49aba7
     name: glibc-static
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/codeready-builder/os/Packages/g/gpgme-devel-1.15.1-6.el9.s390x.rpm
     repoid: codeready-builder-for-rhel-9-s390x-rpms
     size: 170422
@@ -7948,12 +7948,12 @@ arches:
     checksum: sha256:42b39811b826263ecb11bcb556b7d8e9619947eb4f5ac6fca5bfa80969bea275
     name: gdbm
     evr: 1:1.19-4.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.24.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 19844337
-    checksum: sha256:2495e3b229885e01ffd5dec87ea83d52022235c081e8fb19f6744a9e821b044f
+    size: 19844004
+    checksum: sha256:7c3dc8448748d98fb9af6f1ec0115ea61b0618135f5eb0104298bc1f9927eea3
     name: glibc
-    evr: 2.34-168.el9_6.23
+    evr: 2.34-168.el9_6.24
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/gmp-6.2.0-13.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 2503825
@@ -8708,20 +8708,20 @@ arches:
     name: ghc-srpm-macros
     evr: 1.5.0-6.el9
     sourcerpm: ghc-srpm-macros-1.5.0-6.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 34295
-    checksum: sha256:0fa11752abf8ee80658e10017c62f7c0301bcae4008e4716fe6f114a7b9e3977
+    size: 32863
+    checksum: sha256:1f4a3d941a70190d74933edd9ee129763c79e1a4166fb11d114ff81d3d699a68
     name: glibc-devel
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.23.x86_64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 553222
-    checksum: sha256:b090ce707af3eb4d6a20e57fe780502d363892ecaaa41bc1575e4c6c5912f2ab
+    size: 551823
+    checksum: sha256:831461d20fcbda28624406dab6f601142c12b870ca07aea95d1c604b1eb82f84
     name: glibc-headers
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/go-srpm-macros-3.2.0-3.el9.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 28636
@@ -9674,41 +9674,41 @@ arches:
     name: gdbm-libs
     evr: 1:1.19-4.el9
     sourcerpm: gdbm-1.19-4.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-2.34-168.el9_6.23.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 2052524
-    checksum: sha256:47a7eaa890012f8de224fa8e1f553030200f38ef7c5aab9b236d34cc4f0e1deb
+    size: 2050334
+    checksum: sha256:f72b98242480ee9c2113cdb03b2789e8c3a6ec1d868d6cffa111fc864cb7c198
     name: glibc
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.23.x86_64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 310131
-    checksum: sha256:9e6bfff5d0b0533b1037be4fc6bc6b9cd7dd73c55adecfa3edcda02190f1e7da
+    size: 308854
+    checksum: sha256:dfcda240320175ec129ad74a68ea74732fb1c424594f170faab7bb99fec4716e
     name: glibc-common
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.34-168.el9_6.23.x86_64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 1753998
-    checksum: sha256:065f2e745d62034fa3f72cb138ba599338c491921d5c0a9ad4900725721f0507
+    size: 1752739
+    checksum: sha256:8bd8a8fb7df7eaf913a6c2d83ae00a3bd1f6cd0272b5eb38be978f98eefdc31c
     name: glibc-gconv-extra
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.23.x86_64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 672229
-    checksum: sha256:1c8fd029085d95ef17fb60675ec638024078bede2fb28656835131c7f42c214d
+    size: 670344
+    checksum: sha256:13e98bfd11d3b815c9eee76b5e6d3bfb6cd4645832987efc8f8fe5ef7c8a9cb9
     name: glibc-langpack-en
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.23.x86_64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 18705
-    checksum: sha256:77f381d7fac07303eca760d0d1e51bf417d8b2ad61d5b121d85d25e546cfbff3
+    size: 17313
+    checksum: sha256:350f6c6596f392d0dffef5c7e8e2844615f2657b33ab961ea97329f4199f0de8
     name: glibc-minimal-langpack
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gmp-6.2.0-13.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 326840
@@ -10682,13 +10682,13 @@ arches:
     name: zlib
     evr: 1.2.11-40.el9
     sourcerpm: zlib-1.2.11-40.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.23.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/g/glibc-static-2.34-168.el9_6.24.x86_64.rpm
     repoid: codeready-builder-for-rhel-9-x86_64-rpms
-    size: 1510592
-    checksum: sha256:e1ae5c35de48d3062c489cd82e6babc525ecc37a920d2ffb4de615e271f9ddc4
+    size: 1509788
+    checksum: sha256:f4786268e5097ea14498c014e8b846bad1de00c65fbc2e1e0588a2f29be1fa50
     name: glibc-static
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/g/gpgme-devel-1.15.1-6.el9.x86_64.rpm
     repoid: codeready-builder-for-rhel-9-x86_64-rpms
     size: 170873
@@ -11428,12 +11428,12 @@ arches:
     checksum: sha256:42b39811b826263ecb11bcb556b7d8e9619947eb4f5ac6fca5bfa80969bea275
     name: gdbm
     evr: 1:1.19-4.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.23.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.34-168.el9_6.24.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 19844337
-    checksum: sha256:2495e3b229885e01ffd5dec87ea83d52022235c081e8fb19f6744a9e821b044f
+    size: 19844004
+    checksum: sha256:7c3dc8448748d98fb9af6f1ec0115ea61b0618135f5eb0104298bc1f9927eea3
     name: glibc
-    evr: 2.34-168.el9_6.23
+    evr: 2.34-168.el9_6.24
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/gmp-6.2.0-13.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 2503825
