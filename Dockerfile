@@ -22,7 +22,7 @@ RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -mod=readonly \
     -a -tags netgo
 
 # Build stage 2
-FROM --platform=$BUILDPLATFORM registry.redhat.io/ubi10-minimal:latest
+FROM registry.redhat.io/ubi10-minimal:latest
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y && \
