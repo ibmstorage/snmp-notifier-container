@@ -1,7 +1,7 @@
 # Build stage 1
 # This Dockerfile is tailored for Konflux and it runs hermetically.
 
-FROM brew.registry.redhat.io/rh-osbs/openshift-golang-builder:rhel_9_golang_1.24 AS builder
+FROM brew.registry.redhat.io/rh-osbs/openshift-golang-builder:rhel_9_golang_1.25 AS builder
 
 COPY snmp_notifier snmp_notifier
 
