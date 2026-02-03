@@ -35,15 +35,14 @@ COPY --from=builder /snmp_notifier/description-template.tpl /etc/snmp_notifier/d
 
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="snmp-notifier-container"
-LABEL name="snmp-notifier"
+LABEL name=rhceph/snmp-notifier-rhel10
 LABEL version="1.2.1"
 LABEL description="SNMP Notifier container"
 LABEL summary="Provides snmp_notifier container."
 LABEL io.k8s.display-name="SNMP Notifier container"
 LABEL io.k8s.description="SNMP Notifier container receives alerts from the Prometheus' Alertmanager and routes them as SNMP traps."
 LABEL io.openshift.tags="1.2.1"
-LABEL cpe=cpe:/a:redhat:ceph_storage:9::el10
-LABEL org.opencontainers.image.created="${BUILD_DATE}"
+LABEL cpe=cpe:/a:redhat:ceph_storage:9.0::el9
 
 
 RUN chmod +x "$OPBIN"
