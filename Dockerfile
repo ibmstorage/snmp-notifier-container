@@ -46,6 +46,9 @@ LABEL cpe=cpe:/a:redhat:ceph_storage:8.1::el9
 
 RUN chmod +x "$OPBIN"
 
+RUN mkdir /licenses
+COPY ./licenses /licenses
+
 EXPOSE 9464
 ENTRYPOINT ["/usr/local/bin/snmp_notifier"]
 CMD ["--snmp.trap-description-template=/etc/snmp_notifier/description-template.tpl"]
