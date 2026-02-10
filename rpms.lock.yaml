@@ -32,34 +32,6 @@ arches:
     name: glibc-devel
     evr: 2.34-231.el9_7.2
     sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/golang-1.24.6-1.el9_6.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 1321232
-    checksum: sha256:149ccd1295c2fb33806fbda3dba804835434eb9956e5f43232ac6cbcde8032c2
-    name: golang
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/golang-bin-1.24.6-1.el9_6.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 64395470
-    checksum: sha256:1f00baa462288b852358e7bd33d2c87436e6605ffbb9eb0669032ae911201225
-    name: golang-bin
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/golang-race-1.24.6-1.el9_6.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 1781993
-    checksum: sha256:ea2c4b05372e2915b5fd122b5855950788756948a794f8ddd6854ff2213d4f2b
-    name: golang-race
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/g/golang-src-1.24.6-1.el9_6.noarch.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 11747065
-    checksum: sha256:055b955d4dfbcead30f3ae823918e8fbc7830f74f223faf739fb5109c1d1f03f
-    name: golang-src
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/k/keyutils-libs-devel-1.6.3-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 66048
@@ -557,27 +529,13 @@ arches:
     name: bc
     evr: 1.07.1-14.el9
     sourcerpm: bc-1.07.1-14.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/b/binutils-2.35.2-43.el9.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.noarch.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 5024988
-    checksum: sha256:8cf5a3b2ede33c41bc1cda6b08efbc31082143fd891b24272ec5d3ebbe9be8fb
-    name: binutils
-    evr: 2.35.2-43.el9
-    sourcerpm: binutils-2.35.2-43.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/b/binutils-gold-2.35.2-43.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 904090
-    checksum: sha256:0ed5890c34b47c8926273f254013e6b7decb6f306d4569b75a775c1ffb56fd7d
-    name: binutils-gold
-    evr: 2.35.2-43.el9
-    sourcerpm: binutils-2.35.2-43.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/c/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 1044629
-    checksum: sha256:fda07ba8aa8afd38800aa1e49ddd4c7916d8f67030739f85f59727f47bdf28dd
+    size: 1072208
+    checksum: sha256:0554bf65d573950e7d550a07bf7d0b3def85ca3b45a7fbde4cce7cadd9a476a7
     name: ca-certificates
-    evr: 2024.2.69_v8.0.303-91.4.el9_4
-    sourcerpm: ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.src.rpm
+    evr: 2025.2.80_v9.0.305-91.el9
+    sourcerpm: ca-certificates-2025.2.80_v9.0.305-91.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/c/coreutils-single-8.32-35.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 643304
@@ -1649,13 +1607,13 @@ arches:
     name: tree
     evr: 1.8.0-10.el9
     sourcerpm: tree-pkg-1.8.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/t/tzdata-2025b-1.el9.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 862160
-    checksum: sha256:0687e5a1115ba679137404c8d37a45141a31968ffd01677455530d24c126a0d2
+    size: 925360
+    checksum: sha256:1de77872c3c896e801dc1e28ab01218026ea812cc03999d65a886a4a0afc5797
     name: tzdata
-    evr: 2025b-1.el9
-    sourcerpm: tzdata-2025b-1.el9.src.rpm
+    evr: 2025c-1.el9
+    sourcerpm: tzdata-2025c-1.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/u/unzip-6.0-56.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 187701
@@ -1780,12 +1738,6 @@ arches:
     checksum: sha256:27a4c79a2129ca28bbd5c208ba63f3b449165b0e357a720eddea37160f506cee
     name: gdb
     evr: 10.2-13.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/g/golang-1.24.6-1.el9_6.src.rpm
-    repoid: rhel-9-for-aarch64-appstream-source-rpms
-    size: 33173829
-    checksum: sha256:0a13b66205d0f606cacbc93132b9e1640506848ed2e15cdc5dd46b9982642db8
-    name: golang
-    evr: 1.24.6-1.el9_6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/l/langpacks-3.0-16.el9.src.rpm
     repoid: rhel-9-for-aarch64-appstream-source-rpms
     size: 28929
@@ -2092,18 +2044,12 @@ arches:
     checksum: sha256:2349c6df81f4845eed889a772f6f982952dfa278eeb90911b3d4e77c2a1f7351
     name: bc
     evr: 1.07.1-14.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/b/binutils-2.35.2-43.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 22357974
-    checksum: sha256:17e3ab3a054b70e7652f10f5fde2f4f8e7c46bbf046f43d964ff6a74b9b6ab8c
-    name: binutils
-    evr: 2.35.2-43.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/c/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.src.rpm
-    repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 692817
-    checksum: sha256:5d09821ddc46c205eb97656c88a7a553182882e56bfc55fad760a3b1c973ca05
+    size: 711648
+    checksum: sha256:d3193e155ddd297042a944729fe54c1b90c17bdbd1876fc68e4f66d7857f9e81
     name: ca-certificates
-    evr: 2024.2.69_v8.0.303-91.4.el9_4
+    evr: 2025.2.80_v9.0.305-91.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/c/coreutils-8.32-35.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 5687956
@@ -2800,12 +2746,12 @@ arches:
     checksum: sha256:0a7761675b6cf701551c2d0e59de9e7175b3b921c17c13d2b4ed921b87cdeed9
     name: tree-pkg
     evr: 1.8.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/t/tzdata-2025b-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 904607
-    checksum: sha256:a2668d1f6b053545a5824a428755484895d72475a9d3833cbfbec9e08660aba2
+    size: 915004
+    checksum: sha256:8803c8f30f6c0fdc1e4ea91c13b17290a8038dbdde7d30b1fe3cb5716237a160
     name: tzdata
-    evr: 2025b-1.el9
+    evr: 2025c-1.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/u/unzip-6.0-56.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 1437033
@@ -2891,34 +2837,6 @@ arches:
     name: glibc-devel
     evr: 2.34-231.el9_7.2
     sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/golang-1.24.6-1.el9_6.ppc64le.rpm
-    repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 1319334
-    checksum: sha256:c2832e9dd6243e8cd5a60b0fb53f1b0618912f5d62fd48b71052e3aa8df723c7
-    name: golang
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/golang-bin-1.24.6-1.el9_6.ppc64le.rpm
-    repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 65272905
-    checksum: sha256:48fedee2301cdc9a163d447180859c25588dc1cf68bc5b96adac109bba8d1f5f
-    name: golang-bin
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/golang-race-1.24.6-1.el9_6.ppc64le.rpm
-    repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 1702261
-    checksum: sha256:f30dadf8e16d0a33ccb2d538379dbcf748f196193e11419af88a04e4ccbfb029
-    name: golang-race
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/g/golang-src-1.24.6-1.el9_6.noarch.rpm
-    repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 11747065
-    checksum: sha256:055b955d4dfbcead30f3ae823918e8fbc7830f74f223faf739fb5109c1d1f03f
-    name: golang-src
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/k/keyutils-libs-devel-1.6.3-1.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 66069
@@ -3416,27 +3334,13 @@ arches:
     name: bc
     evr: 1.07.1-14.el9
     sourcerpm: bc-1.07.1-14.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/b/binutils-2.35.2-43.el9.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.noarch.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 5214060
-    checksum: sha256:3c35fbc76badf02ec16a5ca78eed52e6327949a835af7e9adcc14a6c230aede6
-    name: binutils
-    evr: 2.35.2-43.el9
-    sourcerpm: binutils-2.35.2-43.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/b/binutils-gold-2.35.2-43.el9.ppc64le.rpm
-    repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 1067963
-    checksum: sha256:1e8ac65f014805278deb28d7ed7ae0df77cb31a3d49b72870d35deada41d41e2
-    name: binutils-gold
-    evr: 2.35.2-43.el9
-    sourcerpm: binutils-2.35.2-43.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/c/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch.rpm
-    repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 1044629
-    checksum: sha256:fda07ba8aa8afd38800aa1e49ddd4c7916d8f67030739f85f59727f47bdf28dd
+    size: 1072208
+    checksum: sha256:0554bf65d573950e7d550a07bf7d0b3def85ca3b45a7fbde4cce7cadd9a476a7
     name: ca-certificates
-    evr: 2024.2.69_v8.0.303-91.4.el9_4
-    sourcerpm: ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.src.rpm
+    evr: 2025.2.80_v9.0.305-91.el9
+    sourcerpm: ca-certificates-2025.2.80_v9.0.305-91.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/c/coreutils-single-8.32-35.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 708706
@@ -4508,13 +4412,13 @@ arches:
     name: tree
     evr: 1.8.0-10.el9
     sourcerpm: tree-pkg-1.8.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/t/tzdata-2025b-1.el9.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 862160
-    checksum: sha256:0687e5a1115ba679137404c8d37a45141a31968ffd01677455530d24c126a0d2
+    size: 925360
+    checksum: sha256:1de77872c3c896e801dc1e28ab01218026ea812cc03999d65a886a4a0afc5797
     name: tzdata
-    evr: 2025b-1.el9
-    sourcerpm: tzdata-2025b-1.el9.src.rpm
+    evr: 2025c-1.el9
+    sourcerpm: tzdata-2025c-1.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/u/unzip-6.0-56.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 197025
@@ -4639,12 +4543,6 @@ arches:
     checksum: sha256:27a4c79a2129ca28bbd5c208ba63f3b449165b0e357a720eddea37160f506cee
     name: gdb
     evr: 10.2-13.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/g/golang-1.24.6-1.el9_6.src.rpm
-    repoid: rhel-9-for-ppc64le-appstream-source-rpms
-    size: 33173829
-    checksum: sha256:0a13b66205d0f606cacbc93132b9e1640506848ed2e15cdc5dd46b9982642db8
-    name: golang
-    evr: 1.24.6-1.el9_6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/l/langpacks-3.0-16.el9.src.rpm
     repoid: rhel-9-for-ppc64le-appstream-source-rpms
     size: 28929
@@ -4951,18 +4849,12 @@ arches:
     checksum: sha256:2349c6df81f4845eed889a772f6f982952dfa278eeb90911b3d4e77c2a1f7351
     name: bc
     evr: 1.07.1-14.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/b/binutils-2.35.2-43.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 22357974
-    checksum: sha256:17e3ab3a054b70e7652f10f5fde2f4f8e7c46bbf046f43d964ff6a74b9b6ab8c
-    name: binutils
-    evr: 2.35.2-43.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/c/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.src.rpm
-    repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 692817
-    checksum: sha256:5d09821ddc46c205eb97656c88a7a553182882e56bfc55fad760a3b1c973ca05
+    size: 711648
+    checksum: sha256:d3193e155ddd297042a944729fe54c1b90c17bdbd1876fc68e4f66d7857f9e81
     name: ca-certificates
-    evr: 2024.2.69_v8.0.303-91.4.el9_4
+    evr: 2025.2.80_v9.0.305-91.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/c/coreutils-8.32-35.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 5687956
@@ -5659,12 +5551,12 @@ arches:
     checksum: sha256:0a7761675b6cf701551c2d0e59de9e7175b3b921c17c13d2b4ed921b87cdeed9
     name: tree-pkg
     evr: 1.8.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/t/tzdata-2025b-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 904607
-    checksum: sha256:a2668d1f6b053545a5824a428755484895d72475a9d3833cbfbec9e08660aba2
+    size: 915004
+    checksum: sha256:8803c8f30f6c0fdc1e4ea91c13b17290a8038dbdde7d30b1fe3cb5716237a160
     name: tzdata
-    evr: 2025b-1.el9
+    evr: 2025c-1.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/u/unzip-6.0-56.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 1437033
@@ -5757,34 +5649,6 @@ arches:
     name: glibc-headers
     evr: 2.34-231.el9_7.2
     sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/golang-1.24.6-1.el9_6.s390x.rpm
-    repoid: rhel-9-for-s390x-appstream-rpms
-    size: 1320885
-    checksum: sha256:70db7c1d8b1994814751f35da8a998273eb9e26f70c471a68922cfc65553299c
-    name: golang
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/golang-bin-1.24.6-1.el9_6.s390x.rpm
-    repoid: rhel-9-for-s390x-appstream-rpms
-    size: 66997194
-    checksum: sha256:6b66cb12e5694b33b4361c5628c38280deb6b24c1c92dc515589a5b3fe63fbbf
-    name: golang-bin
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/golang-race-1.24.6-1.el9_6.s390x.rpm
-    repoid: rhel-9-for-s390x-appstream-rpms
-    size: 2196141
-    checksum: sha256:ac25d96817043722f5744496cd72b01bbd264267137a1342fdbad5a25d848729
-    name: golang-race
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/g/golang-src-1.24.6-1.el9_6.noarch.rpm
-    repoid: rhel-9-for-s390x-appstream-rpms
-    size: 11747065
-    checksum: sha256:055b955d4dfbcead30f3ae823918e8fbc7830f74f223faf739fb5109c1d1f03f
-    name: golang-src
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/k/keyutils-libs-devel-1.6.3-1.el9.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 66053
@@ -6282,27 +6146,13 @@ arches:
     name: bc
     evr: 1.07.1-14.el9
     sourcerpm: bc-1.07.1-14.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/b/binutils-2.35.2-43.el9.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.noarch.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 4754931
-    checksum: sha256:ecb70b537b99a91d0d7465c103a5c29d86e0ea71ccac1fc685eeb880cb2950d2
-    name: binutils
-    evr: 2.35.2-43.el9
-    sourcerpm: binutils-2.35.2-43.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/b/binutils-gold-2.35.2-43.el9.s390x.rpm
-    repoid: rhel-9-for-s390x-baseos-rpms
-    size: 846053
-    checksum: sha256:d21f2cd8bde48be80b903803354dd8dc27c8e029273290e1b1d4f8182d237971
-    name: binutils-gold
-    evr: 2.35.2-43.el9
-    sourcerpm: binutils-2.35.2-43.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/c/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch.rpm
-    repoid: rhel-9-for-s390x-baseos-rpms
-    size: 1044629
-    checksum: sha256:fda07ba8aa8afd38800aa1e49ddd4c7916d8f67030739f85f59727f47bdf28dd
+    size: 1072208
+    checksum: sha256:0554bf65d573950e7d550a07bf7d0b3def85ca3b45a7fbde4cce7cadd9a476a7
     name: ca-certificates
-    evr: 2024.2.69_v8.0.303-91.4.el9_4
-    sourcerpm: ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.src.rpm
+    evr: 2025.2.80_v9.0.305-91.el9
+    sourcerpm: ca-certificates-2025.2.80_v9.0.305-91.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/c/coreutils-single-8.32-35.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 649335
@@ -7367,13 +7217,13 @@ arches:
     name: tree
     evr: 1.8.0-10.el9
     sourcerpm: tree-pkg-1.8.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/t/tzdata-2025b-1.el9.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 862160
-    checksum: sha256:0687e5a1115ba679137404c8d37a45141a31968ffd01677455530d24c126a0d2
+    size: 925360
+    checksum: sha256:1de77872c3c896e801dc1e28ab01218026ea812cc03999d65a886a4a0afc5797
     name: tzdata
-    evr: 2025b-1.el9
-    sourcerpm: tzdata-2025b-1.el9.src.rpm
+    evr: 2025c-1.el9
+    sourcerpm: tzdata-2025c-1.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/u/unzip-6.0-56.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 186150
@@ -7498,12 +7348,6 @@ arches:
     checksum: sha256:27a4c79a2129ca28bbd5c208ba63f3b449165b0e357a720eddea37160f506cee
     name: gdb
     evr: 10.2-13.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/g/golang-1.24.6-1.el9_6.src.rpm
-    repoid: rhel-9-for-s390x-appstream-source-rpms
-    size: 33173829
-    checksum: sha256:0a13b66205d0f606cacbc93132b9e1640506848ed2e15cdc5dd46b9982642db8
-    name: golang
-    evr: 1.24.6-1.el9_6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/l/langpacks-3.0-16.el9.src.rpm
     repoid: rhel-9-for-s390x-appstream-source-rpms
     size: 28929
@@ -7810,18 +7654,12 @@ arches:
     checksum: sha256:2349c6df81f4845eed889a772f6f982952dfa278eeb90911b3d4e77c2a1f7351
     name: bc
     evr: 1.07.1-14.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/b/binutils-2.35.2-43.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 22357974
-    checksum: sha256:17e3ab3a054b70e7652f10f5fde2f4f8e7c46bbf046f43d964ff6a74b9b6ab8c
-    name: binutils
-    evr: 2.35.2-43.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/c/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.src.rpm
-    repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 692817
-    checksum: sha256:5d09821ddc46c205eb97656c88a7a553182882e56bfc55fad760a3b1c973ca05
+    size: 711648
+    checksum: sha256:d3193e155ddd297042a944729fe54c1b90c17bdbd1876fc68e4f66d7857f9e81
     name: ca-certificates
-    evr: 2024.2.69_v8.0.303-91.4.el9_4
+    evr: 2025.2.80_v9.0.305-91.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/c/coreutils-8.32-35.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 5687956
@@ -8512,12 +8350,12 @@ arches:
     checksum: sha256:0a7761675b6cf701551c2d0e59de9e7175b3b921c17c13d2b4ed921b87cdeed9
     name: tree-pkg
     evr: 1.8.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/t/tzdata-2025b-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 904607
-    checksum: sha256:a2668d1f6b053545a5824a428755484895d72475a9d3833cbfbec9e08660aba2
+    size: 915004
+    checksum: sha256:8803c8f30f6c0fdc1e4ea91c13b17290a8038dbdde7d30b1fe3cb5716237a160
     name: tzdata
-    evr: 2025b-1.el9
+    evr: 2025c-1.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/u/unzip-6.0-56.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 1437033
@@ -8722,41 +8560,6 @@ arches:
     name: glibc-headers
     evr: 2.34-231.el9_7.2
     sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/go-srpm-macros-3.2.0-3.el9.noarch.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 28636
-    checksum: sha256:96aa54d5fafa2410fee07b36da7bfbd4d216ac161cfdea255af06f805ca12554
-    name: go-srpm-macros
-    evr: 3.2.0-3.el9
-    sourcerpm: go-rpm-macros-3.2.0-3.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/golang-1.24.6-1.el9_6.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 1320288
-    checksum: sha256:021ed9aa7642e3d5f5998bb0d66e88b9e5ecc008ee5b997813001f9ea46682d4
-    name: golang
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/golang-bin-1.24.6-1.el9_6.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 70005370
-    checksum: sha256:deb2995c2dff71113ecf470d36154a4423042adbe66282f150f5acbae6908106
-    name: golang-bin
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/golang-race-1.24.6-1.el9_6.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 1772207
-    checksum: sha256:e3e07d1b006ccdf682849fbdf3ec839098580f1623e4bf65ef8c281d1d3360bc
-    name: golang-race
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/golang-src-1.24.6-1.el9_6.noarch.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 11747065
-    checksum: sha256:055b955d4dfbcead30f3ae823918e8fbc7830f74f223faf739fb5109c1d1f03f
-    name: golang-src
-    evr: 1.24.6-1.el9_6
-    sourcerpm: golang-1.24.6-1.el9_6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/k/kernel-srpm-macros-1.0-13.el9.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 17792
@@ -9450,27 +9253,13 @@ arches:
     name: bc
     evr: 1.07.1-14.el9
     sourcerpm: bc-1.07.1-14.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/b/binutils-2.35.2-43.el9.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 4814336
-    checksum: sha256:699736ac7d7c7923698dc5e441bdbf6d70f35eeba7ae43d6606ce5dbbf1ec2fb
-    name: binutils
-    evr: 2.35.2-43.el9
-    sourcerpm: binutils-2.35.2-43.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/b/binutils-gold-2.35.2-43.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 754052
-    checksum: sha256:943aaa9fcd7455f453d9cb7b2b54b2fdd5d312ee7f88f2f586db666c89260936
-    name: binutils-gold
-    evr: 2.35.2-43.el9
-    sourcerpm: binutils-2.35.2-43.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/c/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.noarch.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 1044629
-    checksum: sha256:fda07ba8aa8afd38800aa1e49ddd4c7916d8f67030739f85f59727f47bdf28dd
+    size: 1072208
+    checksum: sha256:0554bf65d573950e7d550a07bf7d0b3def85ca3b45a7fbde4cce7cadd9a476a7
     name: ca-certificates
-    evr: 2024.2.69_v8.0.303-91.4.el9_4
-    sourcerpm: ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.src.rpm
+    evr: 2025.2.80_v9.0.305-91.el9
+    sourcerpm: ca-certificates-2025.2.80_v9.0.305-91.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/c/coreutils-single-8.32-35.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 639686
@@ -10598,13 +10387,13 @@ arches:
     name: tree
     evr: 1.8.0-10.el9
     sourcerpm: tree-pkg-1.8.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tzdata-2025b-1.el9.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 862160
-    checksum: sha256:0687e5a1115ba679137404c8d37a45141a31968ffd01677455530d24c126a0d2
+    size: 925360
+    checksum: sha256:1de77872c3c896e801dc1e28ab01218026ea812cc03999d65a886a4a0afc5797
     name: tzdata
-    evr: 2025b-1.el9
-    sourcerpm: tzdata-2025b-1.el9.src.rpm
+    evr: 2025c-1.el9
+    sourcerpm: tzdata-2025c-1.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/u/unzip-6.0-56.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 190864
@@ -10840,18 +10629,6 @@ arches:
     checksum: sha256:2d980af2311afd353583b200783cb39a5da7e89b6dbb9e67aa7d77a2c53e0cab
     name: ghc-srpm-macros
     evr: 1.5.0-6.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/g/go-rpm-macros-3.2.0-3.el9.src.rpm
-    repoid: rhel-9-for-x86_64-appstream-source-rpms
-    size: 63693
-    checksum: sha256:7a3851da99f25226e81efc699480ad3d09ac5da5cbd57d7c0c5ea5cca4779084
-    name: go-rpm-macros
-    evr: 3.2.0-3.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/g/golang-1.24.6-1.el9_6.src.rpm
-    repoid: rhel-9-for-x86_64-appstream-source-rpms
-    size: 33173829
-    checksum: sha256:0a13b66205d0f606cacbc93132b9e1640506848ed2e15cdc5dd46b9982642db8
-    name: golang
-    evr: 1.24.6-1.el9_6
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/k/kernel-srpm-macros-1.0-13.el9.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
     size: 28536
@@ -11272,18 +11049,12 @@ arches:
     checksum: sha256:2349c6df81f4845eed889a772f6f982952dfa278eeb90911b3d4e77c2a1f7351
     name: bc
     evr: 1.07.1-14.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/b/binutils-2.35.2-43.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 22357974
-    checksum: sha256:17e3ab3a054b70e7652f10f5fde2f4f8e7c46bbf046f43d964ff6a74b9b6ab8c
-    name: binutils
-    evr: 2.35.2-43.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/c/ca-certificates-2024.2.69_v8.0.303-91.4.el9_4.src.rpm
-    repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 692817
-    checksum: sha256:5d09821ddc46c205eb97656c88a7a553182882e56bfc55fad760a3b1c973ca05
+    size: 711648
+    checksum: sha256:d3193e155ddd297042a944729fe54c1b90c17bdbd1876fc68e4f66d7857f9e81
     name: ca-certificates
-    evr: 2024.2.69_v8.0.303-91.4.el9_4
+    evr: 2025.2.80_v9.0.305-91.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/c/coreutils-8.32-35.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 5687956
@@ -12028,12 +11799,12 @@ arches:
     checksum: sha256:0a7761675b6cf701551c2d0e59de9e7175b3b921c17c13d2b4ed921b87cdeed9
     name: tree-pkg
     evr: 1.8.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2025b-1.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 904607
-    checksum: sha256:a2668d1f6b053545a5824a428755484895d72475a9d3833cbfbec9e08660aba2
+    size: 915004
+    checksum: sha256:8803c8f30f6c0fdc1e4ea91c13b17290a8038dbdde7d30b1fe3cb5716237a160
     name: tzdata
-    evr: 2025b-1.el9
+    evr: 2025c-1.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/u/unzip-6.0-56.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 1437033
