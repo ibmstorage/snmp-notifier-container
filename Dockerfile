@@ -47,6 +47,9 @@ LABEL org.opencontainers.image.created="${BUILD_DATE}"
 
 RUN chmod +x "$OPBIN"
 
+RUN mkdir /licenses
+COPY ./licenses /licenses
+
 EXPOSE 9464
 ENTRYPOINT ["/usr/local/bin/snmp_notifier"]
 CMD ["--snmp.trap-description-template=/etc/snmp_notifier/description-template.tpl"]
