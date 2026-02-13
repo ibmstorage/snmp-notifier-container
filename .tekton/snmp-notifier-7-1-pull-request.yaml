@@ -17,6 +17,8 @@ metadata:
   name: snmp-notifier-7-1-on-pull-request
   namespace: ceph-tenant
 spec:
+  timeouts:
+    pipeline: 4h
   params:
   - name: git-url
     value: '{{source_url}}'
