@@ -767,13 +767,6 @@ arches:
     name: gmp
     evr: 1:6.2.0-13.el9
     sourcerpm: gmp-6.2.0-13.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/gnupg2-2.3.3-4.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 2614559
-    checksum: sha256:b8d86ab0a1db75c456ea1afd3cfb6412b30665e55ef6c3a5aa9fdcb9a5c7d972
-    name: gnupg2
-    evr: 2.3.3-4.el9
-    sourcerpm: gnupg2-2.3.3-4.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/g/gobject-introspection-1.68.0-11.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 258397
@@ -1509,13 +1502,6 @@ arches:
     name: python3-systemd
     evr: 234-18.el9
     sourcerpm: python-systemd-234-18.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/p/python3-urllib3-1.26.5-5.el9_4.1.noarch.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 223971
-    checksum: sha256:884d7ec70062b1d63c57c3925009490d224f808945b545d995b9b05cc07828b8
-    name: python3-urllib3
-    evr: 1.26.5-5.el9_4.1
-    sourcerpm: python-urllib3-1.26.5-5.el9_4.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/r/readline-8.1-4.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 219015
@@ -1586,13 +1572,6 @@ arches:
     name: subscription-manager-rhsm-certificates
     evr: 20220623-1.el9
     sourcerpm: subscription-manager-rhsm-certificates-20220623-1.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/t/tar-1.34-6.el9_4.1.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 900224
-    checksum: sha256:f2b65a333b9de17af1f71e27c7540fa23d85cbe98774a246eb70547d028027da
-    name: tar
-    evr: 2:1.34-6.el9_4.1
-    sourcerpm: tar-1.34-6.el9_4.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/t/tpm2-tss-3.2.2-2.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 570083
@@ -1607,13 +1586,6 @@ arches:
     name: tree
     evr: 1.8.0-10.el9
     sourcerpm: tree-pkg-1.8.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 925360
-    checksum: sha256:1de77872c3c896e801dc1e28ab01218026ea812cc03999d65a886a4a0afc5797
-    name: tzdata
-    evr: 2025c-1.el9
-    sourcerpm: tzdata-2025c-1.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/u/unzip-6.0-56.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 187701
@@ -2194,12 +2166,6 @@ arches:
     checksum: sha256:d0d8a795eea9ae555da63fbcfc3575425e86bb7e96d117b9ae2785b4f5e82f7c
     name: gmp
     evr: 1:6.2.0-13.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/gnupg2-2.3.3-4.el9.src.rpm
-    repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 7619607
-    checksum: sha256:8543944593f589da8e3ccb576ecf78a60eaa77fff42482c092afdb4d65a6d895
-    name: gnupg2
-    evr: 2.3.3-4.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/g/gobject-introspection-1.68.0-11.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 1041521
@@ -2674,12 +2640,6 @@ arches:
     checksum: sha256:efb08e0a423148f45b6eb307e5081cf55b4121cb128dee0a55d059d9500ee146
     name: python-systemd
     evr: 234-18.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/p/python-urllib3-1.26.5-5.el9_4.1.src.rpm
-    repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 286063
-    checksum: sha256:698b3d8f1980603941b8e1e0e543fedf261df9c0fe3b32bd4aaa0ce0e19da435
-    name: python-urllib3
-    evr: 1.26.5-5.el9_4.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/r/readline-8.1-4.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 3009702
@@ -2722,12 +2682,6 @@ arches:
     checksum: sha256:a814ce978afe85327fd03829047ce04181d5d3f76bad8cfe8d24adfbd9be38a2
     name: subscription-manager-rhsm-certificates
     evr: 20220623-1.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/t/tar-1.34-6.el9_4.1.src.rpm
-    repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 2261540
-    checksum: sha256:5999765e32c903ded87d03918e57aab46dfe99d921d7cc78af0cf6a574975186
-    name: tar
-    evr: 2:1.34-6.el9_4.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/t/texinfo-6.7-15.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 4368012
@@ -2746,12 +2700,6 @@ arches:
     checksum: sha256:0a7761675b6cf701551c2d0e59de9e7175b3b921c17c13d2b4ed921b87cdeed9
     name: tree-pkg
     evr: 1.8.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el9.src.rpm
-    repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 915004
-    checksum: sha256:8803c8f30f6c0fdc1e4ea91c13b17290a8038dbdde7d30b1fe3cb5716237a160
-    name: tzdata
-    evr: 2025c-1.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/u/unzip-6.0-56.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 1437033
@@ -3565,13 +3513,6 @@ arches:
     name: gmp
     evr: 1:6.2.0-13.el9
     sourcerpm: gmp-6.2.0-13.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/gnupg2-2.3.3-4.el9.ppc64le.rpm
-    repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 2800058
-    checksum: sha256:3c7fdbebe26262ac5b6aad3c1b573c5baa0c50ae7140cca437d79d917c9a4769
-    name: gnupg2
-    evr: 2.3.3-4.el9
-    sourcerpm: gnupg2-2.3.3-4.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/g/gobject-introspection-1.68.0-11.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 265545
@@ -4314,13 +4255,6 @@ arches:
     name: python3-systemd
     evr: 234-18.el9
     sourcerpm: python-systemd-234-18.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/p/python3-urllib3-1.26.5-5.el9_4.1.noarch.rpm
-    repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 223971
-    checksum: sha256:884d7ec70062b1d63c57c3925009490d224f808945b545d995b9b05cc07828b8
-    name: python3-urllib3
-    evr: 1.26.5-5.el9_4.1
-    sourcerpm: python-urllib3-1.26.5-5.el9_4.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/r/readline-8.1-4.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 236301
@@ -4391,13 +4325,6 @@ arches:
     name: subscription-manager-rhsm-certificates
     evr: 20220623-1.el9
     sourcerpm: subscription-manager-rhsm-certificates-20220623-1.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/t/tar-1.34-6.el9_4.1.ppc64le.rpm
-    repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 937734
-    checksum: sha256:8ecb2fe3ffd693d9cf6f4fcfe1869900e1d54a6d76c771381ec64db33dee5758
-    name: tar
-    evr: 2:1.34-6.el9_4.1
-    sourcerpm: tar-1.34-6.el9_4.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/t/tpm2-tss-3.2.2-2.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 545997
@@ -4412,13 +4339,6 @@ arches:
     name: tree
     evr: 1.8.0-10.el9
     sourcerpm: tree-pkg-1.8.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
-    repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 925360
-    checksum: sha256:1de77872c3c896e801dc1e28ab01218026ea812cc03999d65a886a4a0afc5797
-    name: tzdata
-    evr: 2025c-1.el9
-    sourcerpm: tzdata-2025c-1.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/u/unzip-6.0-56.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 197025
@@ -4993,12 +4913,6 @@ arches:
     checksum: sha256:d0d8a795eea9ae555da63fbcfc3575425e86bb7e96d117b9ae2785b4f5e82f7c
     name: gmp
     evr: 1:6.2.0-13.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/gnupg2-2.3.3-4.el9.src.rpm
-    repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 7619607
-    checksum: sha256:8543944593f589da8e3ccb576ecf78a60eaa77fff42482c092afdb4d65a6d895
-    name: gnupg2
-    evr: 2.3.3-4.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/g/gobject-introspection-1.68.0-11.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 1041521
@@ -5479,12 +5393,6 @@ arches:
     checksum: sha256:efb08e0a423148f45b6eb307e5081cf55b4121cb128dee0a55d059d9500ee146
     name: python-systemd
     evr: 234-18.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/p/python-urllib3-1.26.5-5.el9_4.1.src.rpm
-    repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 286063
-    checksum: sha256:698b3d8f1980603941b8e1e0e543fedf261df9c0fe3b32bd4aaa0ce0e19da435
-    name: python-urllib3
-    evr: 1.26.5-5.el9_4.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/r/readline-8.1-4.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 3009702
@@ -5527,12 +5435,6 @@ arches:
     checksum: sha256:a814ce978afe85327fd03829047ce04181d5d3f76bad8cfe8d24adfbd9be38a2
     name: subscription-manager-rhsm-certificates
     evr: 20220623-1.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/t/tar-1.34-6.el9_4.1.src.rpm
-    repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 2261540
-    checksum: sha256:5999765e32c903ded87d03918e57aab46dfe99d921d7cc78af0cf6a574975186
-    name: tar
-    evr: 2:1.34-6.el9_4.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/t/texinfo-6.7-15.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 4368012
@@ -5551,12 +5453,6 @@ arches:
     checksum: sha256:0a7761675b6cf701551c2d0e59de9e7175b3b921c17c13d2b4ed921b87cdeed9
     name: tree-pkg
     evr: 1.8.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el9.src.rpm
-    repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 915004
-    checksum: sha256:8803c8f30f6c0fdc1e4ea91c13b17290a8038dbdde7d30b1fe3cb5716237a160
-    name: tzdata
-    evr: 2025c-1.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/u/unzip-6.0-56.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 1437033
@@ -6377,13 +6273,6 @@ arches:
     name: gmp
     evr: 1:6.2.0-13.el9
     sourcerpm: gmp-6.2.0-13.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/gnupg2-2.3.3-4.el9.s390x.rpm
-    repoid: rhel-9-for-s390x-baseos-rpms
-    size: 2581304
-    checksum: sha256:d8b5a4b121e008feb5e55342f19426547a253edef37b0c1d965754da92598338
-    name: gnupg2
-    evr: 2.3.3-4.el9
-    sourcerpm: gnupg2-2.3.3-4.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/g/gobject-introspection-1.68.0-11.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 256508
@@ -7119,13 +7008,6 @@ arches:
     name: python3-systemd
     evr: 234-18.el9
     sourcerpm: python-systemd-234-18.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/p/python3-urllib3-1.26.5-5.el9_4.1.noarch.rpm
-    repoid: rhel-9-for-s390x-baseos-rpms
-    size: 223971
-    checksum: sha256:884d7ec70062b1d63c57c3925009490d224f808945b545d995b9b05cc07828b8
-    name: python3-urllib3
-    evr: 1.26.5-5.el9_4.1
-    sourcerpm: python-urllib3-1.26.5-5.el9_4.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/r/readline-8.1-4.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 219915
@@ -7196,13 +7078,6 @@ arches:
     name: subscription-manager-rhsm-certificates
     evr: 20220623-1.el9
     sourcerpm: subscription-manager-rhsm-certificates-20220623-1.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/t/tar-1.34-6.el9_4.1.s390x.rpm
-    repoid: rhel-9-for-s390x-baseos-rpms
-    size: 902433
-    checksum: sha256:cc04561424eb760cda6640a6244c538d7136ca5d8c8f8667b35da900ec859ee2
-    name: tar
-    evr: 2:1.34-6.el9_4.1
-    sourcerpm: tar-1.34-6.el9_4.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/t/tpm2-tss-3.2.2-2.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 554463
@@ -7217,13 +7092,6 @@ arches:
     name: tree
     evr: 1.8.0-10.el9
     sourcerpm: tree-pkg-1.8.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
-    repoid: rhel-9-for-s390x-baseos-rpms
-    size: 925360
-    checksum: sha256:1de77872c3c896e801dc1e28ab01218026ea812cc03999d65a886a4a0afc5797
-    name: tzdata
-    evr: 2025c-1.el9
-    sourcerpm: tzdata-2025c-1.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/u/unzip-6.0-56.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 186150
@@ -7798,12 +7666,6 @@ arches:
     checksum: sha256:d0d8a795eea9ae555da63fbcfc3575425e86bb7e96d117b9ae2785b4f5e82f7c
     name: gmp
     evr: 1:6.2.0-13.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/gnupg2-2.3.3-4.el9.src.rpm
-    repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 7619607
-    checksum: sha256:8543944593f589da8e3ccb576ecf78a60eaa77fff42482c092afdb4d65a6d895
-    name: gnupg2
-    evr: 2.3.3-4.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/g/gobject-introspection-1.68.0-11.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 1041521
@@ -8278,12 +8140,6 @@ arches:
     checksum: sha256:efb08e0a423148f45b6eb307e5081cf55b4121cb128dee0a55d059d9500ee146
     name: python-systemd
     evr: 234-18.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/p/python-urllib3-1.26.5-5.el9_4.1.src.rpm
-    repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 286063
-    checksum: sha256:698b3d8f1980603941b8e1e0e543fedf261df9c0fe3b32bd4aaa0ce0e19da435
-    name: python-urllib3
-    evr: 1.26.5-5.el9_4.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/r/readline-8.1-4.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 3009702
@@ -8326,12 +8182,6 @@ arches:
     checksum: sha256:a814ce978afe85327fd03829047ce04181d5d3f76bad8cfe8d24adfbd9be38a2
     name: subscription-manager-rhsm-certificates
     evr: 20220623-1.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/t/tar-1.34-6.el9_4.1.src.rpm
-    repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 2261540
-    checksum: sha256:5999765e32c903ded87d03918e57aab46dfe99d921d7cc78af0cf6a574975186
-    name: tar
-    evr: 2:1.34-6.el9_4.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/t/texinfo-6.7-15.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 4368012
@@ -8350,12 +8200,6 @@ arches:
     checksum: sha256:0a7761675b6cf701551c2d0e59de9e7175b3b921c17c13d2b4ed921b87cdeed9
     name: tree-pkg
     evr: 1.8.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el9.src.rpm
-    repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 915004
-    checksum: sha256:8803c8f30f6c0fdc1e4ea91c13b17290a8038dbdde7d30b1fe3cb5716237a160
-    name: tzdata
-    evr: 2025c-1.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/u/unzip-6.0-56.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 1437033
@@ -8511,20 +8355,6 @@ arches:
     name: fonts-srpm-macros
     evr: 1:2.0.5-7.el9.1
     sourcerpm: fonts-rpm-macros-2.0.5-7.el9.1.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gcc-toolset-13-binutils-2.40-21.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 6035750
-    checksum: sha256:b808432cf1d7c564280fda2e1c8382d5901af838f8d6ab8d91e5d1a37c2f4a9c
-    name: gcc-toolset-13-binutils
-    evr: 2.40-21.el9
-    sourcerpm: gcc-toolset-13-binutils-2.40-21.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gcc-toolset-13-binutils-gold-2.40-21.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 850981
-    checksum: sha256:c5fe9671a394bd445be2ae42837e228eedb1ee327365bf04a4d94404b24b7801
-    name: gcc-toolset-13-binutils-gold
-    evr: 2.40-21.el9
-    sourcerpm: gcc-toolset-13-binutils-2.40-21.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gcc-toolset-13-runtime-13.0-2.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 63636
@@ -9505,13 +9335,6 @@ arches:
     name: gmp
     evr: 1:6.2.0-13.el9
     sourcerpm: gmp-6.2.0-13.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gnupg2-2.3.3-4.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 2641396
-    checksum: sha256:c6541c33c623ea78fe08e876218d4480923b499ba74de428686d015da984bd1d
-    name: gnupg2
-    evr: 2.3.3-4.el9
-    sourcerpm: gnupg2-2.3.3-4.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gobject-introspection-1.68.0-11.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 260411
@@ -10282,13 +10105,6 @@ arches:
     name: python3-systemd
     evr: 234-18.el9
     sourcerpm: python-systemd-234-18.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-urllib3-1.26.5-5.el9_4.1.noarch.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 223971
-    checksum: sha256:884d7ec70062b1d63c57c3925009490d224f808945b545d995b9b05cc07828b8
-    name: python3-urllib3
-    evr: 1.26.5-5.el9_4.1
-    sourcerpm: python-urllib3-1.26.5-5.el9_4.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/r/readline-8.1-4.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 220174
@@ -10359,13 +10175,6 @@ arches:
     name: subscription-manager-rhsm-certificates
     evr: 20220623-1.el9
     sourcerpm: subscription-manager-rhsm-certificates-20220623-1.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tar-1.34-6.el9_4.1.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 910343
-    checksum: sha256:76f2f5fd1f37153d51a697659db31bd2a672a1a4536b42ce020cf9602ea3cde7
-    name: tar
-    evr: 2:1.34-6.el9_4.1
-    sourcerpm: tar-1.34-6.el9_4.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tcl-8.6.10-7.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 1152092
@@ -10387,13 +10196,6 @@ arches:
     name: tree
     evr: 1.8.0-10.el9
     sourcerpm: tree-pkg-1.8.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 925360
-    checksum: sha256:1de77872c3c896e801dc1e28ab01218026ea812cc03999d65a886a4a0afc5797
-    name: tzdata
-    evr: 2025c-1.el9
-    sourcerpm: tzdata-2025c-1.el9.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/u/unzip-6.0-56.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 190864
@@ -10611,12 +10413,6 @@ arches:
     checksum: sha256:3ac57b9dea39963c87f658f978e95df19511767bdcff6517d84403d7ff003412
     name: gcc-toolset-13
     evr: 13.0-2.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/g/gcc-toolset-13-binutils-2.40-21.el9.src.rpm
-    repoid: rhel-9-for-x86_64-appstream-source-rpms
-    size: 25343605
-    checksum: sha256:19745c00cdca6ca3f73858e2479be4261b358109c071972e28ef6301a9e52280
-    name: gcc-toolset-13-binutils
-    evr: 2.40-21.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/g/gdb-10.2-13.el9.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
     size: 22267059
@@ -11211,12 +11007,6 @@ arches:
     checksum: sha256:d0d8a795eea9ae555da63fbcfc3575425e86bb7e96d117b9ae2785b4f5e82f7c
     name: gmp
     evr: 1:6.2.0-13.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/gnupg2-2.3.3-4.el9.src.rpm
-    repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 7619607
-    checksum: sha256:8543944593f589da8e3ccb576ecf78a60eaa77fff42482c092afdb4d65a6d895
-    name: gnupg2
-    evr: 2.3.3-4.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/g/gobject-introspection-1.68.0-11.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 1041521
@@ -11715,12 +11505,6 @@ arches:
     checksum: sha256:efb08e0a423148f45b6eb307e5081cf55b4121cb128dee0a55d059d9500ee146
     name: python-systemd
     evr: 234-18.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/p/python-urllib3-1.26.5-5.el9_4.1.src.rpm
-    repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 286063
-    checksum: sha256:698b3d8f1980603941b8e1e0e543fedf261df9c0fe3b32bd4aaa0ce0e19da435
-    name: python-urllib3
-    evr: 1.26.5-5.el9_4.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/r/readline-8.1-4.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 3009702
@@ -11769,12 +11553,6 @@ arches:
     checksum: sha256:a814ce978afe85327fd03829047ce04181d5d3f76bad8cfe8d24adfbd9be38a2
     name: subscription-manager-rhsm-certificates
     evr: 20220623-1.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/t/tar-1.34-6.el9_4.1.src.rpm
-    repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 2261540
-    checksum: sha256:5999765e32c903ded87d03918e57aab46dfe99d921d7cc78af0cf6a574975186
-    name: tar
-    evr: 2:1.34-6.el9_4.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/t/tcl-8.6.10-7.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 6000353
@@ -11799,12 +11577,6 @@ arches:
     checksum: sha256:0a7761675b6cf701551c2d0e59de9e7175b3b921c17c13d2b4ed921b87cdeed9
     name: tree-pkg
     evr: 1.8.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2025c-1.el9.src.rpm
-    repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 915004
-    checksum: sha256:8803c8f30f6c0fdc1e4ea91c13b17290a8038dbdde7d30b1fe3cb5716237a160
-    name: tzdata
-    evr: 2025c-1.el9
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/u/unzip-6.0-56.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 1437033
