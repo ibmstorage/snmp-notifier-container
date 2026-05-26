@@ -186,13 +186,13 @@ arches:
     name: setup
     evr: 2.12.2-9.el8
     sourcerpm: setup-2.12.2-9.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/t/tzdata-2026a-1.el8.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/t/tzdata-2026b-1.el8.noarch.rpm
     repoid: rhel-8-for-ppc64le-baseos-rpms
-    size: 562212
-    checksum: sha256:4e9b64a18650ea6a7ff540aef7947b9f493d15919662dd067e42b9276acaceb8
+    size: 562980
+    checksum: sha256:1fcff97620f44dd9750407def200e16d073285a2576a6581932822318d4788e9
     name: tzdata
-    evr: 2026a-1.el8
-    sourcerpm: tzdata-2026a-1.el8.src.rpm
+    evr: 2026b-1.el8
+    sourcerpm: tzdata-2026b-1.el8.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/z/zlib-1.2.11-25.el8.ppc64le.rpm
     repoid: rhel-8-for-ppc64le-baseos-rpms
     size: 115624
@@ -305,12 +305,12 @@ arches:
     checksum: sha256:94881acbdc6de2e2e22c7fac12ca732da89b2b6d245ca9f8a5810387090ccb76
     name: texinfo
     evr: 6.5-7.el8
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/source/SRPMS/Packages/t/tzdata-2026a-1.el8.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/source/SRPMS/Packages/t/tzdata-2026b-1.el8.src.rpm
     repoid: rhel-8-for-ppc64le-baseos-source-rpms
-    size: 965559
-    checksum: sha256:fad45889fe2cf9e129928cfb8d3ffcb95981d3b07c54a75b30ff63f2dc3c7df7
+    size: 969579
+    checksum: sha256:9d7fbb84c12ca6d43a4f8f6292d24b73e97231218272f43566468642e7f719af
     name: tzdata
-    evr: 2026a-1.el8
+    evr: 2026b-1.el8
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/source/SRPMS/Packages/z/zlib-1.2.11-25.el8.src.rpm
     repoid: rhel-8-for-ppc64le-baseos-source-rpms
     size: 565905
@@ -502,13 +502,13 @@ arches:
     name: setup
     evr: 2.12.2-9.el8
     sourcerpm: setup-2.12.2-9.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/t/tzdata-2026a-1.el8.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/t/tzdata-2026b-1.el8.noarch.rpm
     repoid: rhel-8-for-s390x-baseos-rpms
-    size: 562212
-    checksum: sha256:4e9b64a18650ea6a7ff540aef7947b9f493d15919662dd067e42b9276acaceb8
+    size: 562980
+    checksum: sha256:1fcff97620f44dd9750407def200e16d073285a2576a6581932822318d4788e9
     name: tzdata
-    evr: 2026a-1.el8
-    sourcerpm: tzdata-2026a-1.el8.src.rpm
+    evr: 2026b-1.el8
+    sourcerpm: tzdata-2026b-1.el8.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/z/zlib-1.2.11-25.el8.s390x.rpm
     repoid: rhel-8-for-s390x-baseos-rpms
     size: 110060
@@ -621,12 +621,12 @@ arches:
     checksum: sha256:94881acbdc6de2e2e22c7fac12ca732da89b2b6d245ca9f8a5810387090ccb76
     name: texinfo
     evr: 6.5-7.el8
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/source/SRPMS/Packages/t/tzdata-2026a-1.el8.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/source/SRPMS/Packages/t/tzdata-2026b-1.el8.src.rpm
     repoid: rhel-8-for-s390x-baseos-source-rpms
-    size: 965559
-    checksum: sha256:fad45889fe2cf9e129928cfb8d3ffcb95981d3b07c54a75b30ff63f2dc3c7df7
+    size: 969579
+    checksum: sha256:9d7fbb84c12ca6d43a4f8f6292d24b73e97231218272f43566468642e7f719af
     name: tzdata
-    evr: 2026a-1.el8
+    evr: 2026b-1.el8
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/source/SRPMS/Packages/z/zlib-1.2.11-25.el8.src.rpm
     repoid: rhel-8-for-s390x-baseos-source-rpms
     size: 565905
@@ -818,13 +818,13 @@ arches:
     name: setup
     evr: 2.12.2-9.el8
     sourcerpm: setup-2.12.2-9.el8.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/t/tzdata-2026a-1.el8.noarch.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/t/tzdata-2026b-1.el8.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 562212
-    checksum: sha256:4e9b64a18650ea6a7ff540aef7947b9f493d15919662dd067e42b9276acaceb8
+    size: 562980
+    checksum: sha256:1fcff97620f44dd9750407def200e16d073285a2576a6581932822318d4788e9
     name: tzdata
-    evr: 2026a-1.el8
-    sourcerpm: tzdata-2026a-1.el8.src.rpm
+    evr: 2026b-1.el8
+    sourcerpm: tzdata-2026b-1.el8.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/z/zlib-1.2.11-25.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 105848
@@ -937,12 +937,12 @@ arches:
     checksum: sha256:94881acbdc6de2e2e22c7fac12ca732da89b2b6d245ca9f8a5810387090ccb76
     name: texinfo
     evr: 6.5-7.el8
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2026a-1.el8.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2026b-1.el8.src.rpm
     repoid: rhel-8-for-x86_64-baseos-source-rpms
-    size: 965559
-    checksum: sha256:fad45889fe2cf9e129928cfb8d3ffcb95981d3b07c54a75b30ff63f2dc3c7df7
+    size: 969579
+    checksum: sha256:9d7fbb84c12ca6d43a4f8f6292d24b73e97231218272f43566468642e7f719af
     name: tzdata
-    evr: 2026a-1.el8
+    evr: 2026b-1.el8
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/source/SRPMS/Packages/z/zlib-1.2.11-25.el8.src.rpm
     repoid: rhel-8-for-x86_64-baseos-source-rpms
     size: 565905
