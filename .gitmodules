@@ -1,4 +1,4 @@
 [submodule "snmp_notifier"]
 	path = snmp_notifier
 	url = https://github.com/ibmstorage/snmp_notifier.git
-	branch = release-9.1
+	branch = release-9.2
