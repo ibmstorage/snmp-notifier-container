@@ -4,17 +4,16 @@ metadata:
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/ibmstorage/snmp-notifier-container?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
-    build.appstudio.redhat.com/pull_request_number: '{{pull_request_number}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
-    pipelinesascode.tekton.dev/cancel-in-progress: "true"
+    pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch == "release-9.1"
+    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "release-9.2"
   creationTimestamp:
   labels:
-    appstudio.openshift.io/application: ceph-9-1
-    appstudio.openshift.io/component: snmp-notifier-9-1
+    appstudio.openshift.io/application: ceph-9-2
+    appstudio.openshift.io/component: snmp-notifier-9-2
     pipelines.appstudio.openshift.io/type: build
-  name: snmp-notifier-9-1-on-pull-request
+  name: snmp-notifier-9-2-on-push
   namespace: ceph-tenant
 spec:
   timeouts:
@@ -26,9 +25,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-ci/snmp-notifier:on-pr-v9.1-{{revision}}
-  - name: image-expires-after
-    value: 5d
+    value: quay.io/rhceph-ci/snmp-notifier:v9.2-{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
@@ -275,12 +272,12 @@ spec:
       params:
       - name: BINARY_IMAGE
         value: $(tasks.build-image-index.results.IMAGE_URL)
-      - name: BINARY_IMAGE_DIGEST
-        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: SOURCE_ARTIFACT
         value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
       - name: CACHI2_ARTIFACT
         value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
+      - name: BINARY_IMAGE_DIGEST
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       runAfter:
       - build-image-index
       taskRef:
@@ -550,7 +547,7 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: ADDITIONAL_TAGS
         value:
-        - "pull-request-{{pull_request_number}}"
+        - "v9.2"
         - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
       - build-image-index
@@ -614,7 +611,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-snmp-notifier-9-1
+    serviceAccountName: build-pipeline-snmp-notifier-9-2
   workspaces:
   - name: git-auth
     secret:
