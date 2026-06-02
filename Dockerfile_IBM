@@ -1,5 +1,5 @@
 # Build stage 1
-ARG BASE_IMAGE=registry.redhat.io/ubi8/go-toolset:1.25.9-1779944116
+ARG BASE_IMAGE=registry.redhat.io/ubi8/go-toolset:1.25.10-1780386709
 
 FROM --platform=$BUILDPLATFORM ${BASE_IMAGE} AS builder
 USER root
