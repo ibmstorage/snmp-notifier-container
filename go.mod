@@ -5,7 +5,7 @@ require (
 	github.com/cloudfoundry/gosigar v1.3.120
 	github.com/geoffgarside/ber v1.2.0 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
-	github.com/go-test/deep v1.0.7
+	github.com/go-test/deep v1.1.1
 	github.com/gorilla/handlers v1.5.2
 	github.com/k-sone/snmpgo v3.2.0+incompatible
 	github.com/prometheus/alertmanager v0.32.1
