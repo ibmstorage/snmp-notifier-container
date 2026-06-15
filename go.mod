@@ -8,7 +8,7 @@ require (
 	github.com/go-test/deep v1.1.1
 	github.com/gorilla/handlers v1.5.2
 	github.com/k-sone/snmpgo v3.2.0+incompatible
-	github.com/prometheus/alertmanager v0.32.1
+	github.com/prometheus/alertmanager v0.33.0
 	github.com/prometheus/client_golang v1.23.2
 	github.com/prometheus/common v0.68.1
 	github.com/shirou/gopsutil v2.21.11+incompatible
