@@ -9,7 +9,7 @@ require (
 	github.com/gorilla/handlers v1.5.2
 	github.com/k-sone/snmpgo v3.2.0+incompatible
 	github.com/prometheus/alertmanager v0.33.0
-	github.com/prometheus/client_golang v1.11.0
+	github.com/prometheus/client_golang v1.23.2
 	github.com/prometheus/common v0.26.0
 	github.com/shirou/gopsutil v2.20.9+incompatible
 	gopkg.in/alecthomas/kingpin.v2 v2.4.0
