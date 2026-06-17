@@ -11,7 +11,7 @@ require (
 	github.com/prometheus/alertmanager v0.33.0
 	github.com/prometheus/client_golang v1.23.2
 	github.com/prometheus/common v0.68.1
-	github.com/shirou/gopsutil v2.20.9+incompatible
+	github.com/shirou/gopsutil v2.21.11+incompatible
 	gopkg.in/alecthomas/kingpin.v2 v2.4.0
 )
 
