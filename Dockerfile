@@ -44,6 +44,9 @@ LABEL io.k8s.description="SNMP Notifier container receives alerts from the Prome
 LABEL io.openshift.tags="1.2.1"
 LABEL cpe=cpe:/a:redhat:ceph_storage:7.1::el9
 
+# Z-stream indicator
+LABEL Z-VERSION="7.1z10"
+
 RUN chmod +x "$OPBIN"
 
 RUN mkdir /licenses
