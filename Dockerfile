@@ -42,10 +42,10 @@ LABEL summary="Provides snmp_notifier container."
 LABEL io.k8s.display-name="SNMP Notifier container"
 LABEL io.k8s.description="SNMP Notifier container receives alerts from the Prometheus' Alertmanager and routes them as SNMP traps."
 LABEL io.openshift.tags="1.2.1"
-LABEL cpe=cpe:/a:redhat:ceph_storage:9.2::el10
+LABEL cpe=cpe:/a:redhat:ceph_storage:10.0::el10
 
 # Z-stream indicator
-LABEL Z-VERSION="9.2"
+LABEL Z-VERSION="10.0"
 
 RUN chmod +x "$OPBIN"
 
