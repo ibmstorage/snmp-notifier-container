@@ -45,7 +45,7 @@ LABEL io.openshift.tags="1.2.1"
 LABEL cpe=cpe:/a:redhat:ceph_storage:8.1::el9
 
 # Z-stream indicator
-LABEL Z-VERSION="8.1z8"
+LABEL Z-VERSION="8.1z9"
 
 RUN chmod +x "$OPBIN"
 
