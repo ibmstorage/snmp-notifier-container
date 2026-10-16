@@ -8,13 +8,13 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/cancel-in-progress: "true"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch == "release-9.2"
+    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch == "release-10.0"
   creationTimestamp:
   labels:
-    appstudio.openshift.io/application: ceph-9-2
-    appstudio.openshift.io/component: snmp-notifier-9-2
+    appstudio.openshift.io/application: ceph-10-0
+    appstudio.openshift.io/component: snmp-notifier-10-0
     pipelines.appstudio.openshift.io/type: build
-  name: snmp-notifier-9-2-on-pull-request
+  name: snmp-notifier-10-0-on-pull-request
   namespace: ceph-tenant
 spec:
   timeouts:
@@ -26,7 +26,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-ci/snmp-notifier:on-pr-v9.2-{{revision}}
+    value: quay.io/rhceph-ci/snmp-notifier:on-pr-v10.0-{{revision}}
   - name: image-expires-after
     value: 5d
   - name: build-platforms
