@@ -632,7 +632,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-snmp-notifier-9-2
+    serviceAccountName: build-pipeline-snmp-notifier-10-0
   workspaces:
   - name: git-auth
     secret:
