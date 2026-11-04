@@ -16,6 +16,8 @@ context:
 
 packages:
   - glibc-static
+  - glibc
+  - glibc-static
 
 reinstallPackages:
   - '*'
