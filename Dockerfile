@@ -5,7 +5,8 @@ COPY snmp_notifier snmp_notifier
 
 WORKDIR snmp_notifier
 
-RUN dnf remove -y glibc-minimal-langpack glibc-langpack-en && dnf install -y glibc glibc-devel glibc-static
+RUN dnf -y update \
+  && dnf install -y glibc glibc-devel glibc-static
 
 # Build the binary
 RUN GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -mod=readonly \
