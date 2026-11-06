@@ -2,7 +2,7 @@ module github.com/maxwo/snmp_notifier
 
 require (
 	github.com/StackExchange/wmi v1.2.1 // indirect
-	github.com/cloudfoundry/gosigar v1.3.130
+	github.com/cloudfoundry/gosigar v1.3.131
 	github.com/geoffgarside/ber v1.2.0 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/go-test/deep v1.1.2
